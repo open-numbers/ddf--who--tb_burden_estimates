@@ -1,0 +1,3128 @@
+{
+    "name": "ddf--who--tb_burden_estimates",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "author": "Gapminder",
+    "description": "WHO TB burden estimates",
+    "license": "CC-BY-4.0",
+    "title": "WHO TB burden estimates",
+    "translations": [],
+    "version": "0.0.1",
+    "created": "2018-07-20T09:49:33.981050+00:00",
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--c_cdr--by--country--year.csv",
+            "name": "ddf--datapoints--c_cdr--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "c_cdr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--c_cdr_hi--by--country--year.csv",
+            "name": "ddf--datapoints--c_cdr_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "c_cdr_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--c_cdr_lo--by--country--year.csv",
+            "name": "ddf--datapoints--c_cdr_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "c_cdr_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--c_newinc_100k--by--country--year.csv",
+            "name": "ddf--datapoints--c_newinc_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "c_newinc_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--cfr--by--country--year.csv",
+            "name": "ddf--datapoints--cfr--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--cfr_hi--by--country--year.csv",
+            "name": "ddf--datapoints--cfr_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--cfr_lo--by--country--year.csv",
+            "name": "ddf--datapoints--cfr_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_hh_size--by--country--year.csv",
+            "name": "ddf--datapoints--e_hh_size--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_hh_size"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_100k--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_100k_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_100k_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_100k_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_100k_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_100k_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_100k_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_014--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_014--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_014_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_014_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_014_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_014_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_014_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_014_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_15plus--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_15plus--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_15plus_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_15plus_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_15plus_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_15plus_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_15plus_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_15plus_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f014--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f014--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f014_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f014_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f014_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f014_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f014_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f014_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f15plus--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f15plus--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f15plus_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f15plus_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f15plus_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f15plus_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f15plus_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f15plus_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_f_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_f_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_f_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m014--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m014--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m014_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m014_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m014_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m014_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m014_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m014_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m15plus--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m15plus--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m15plus_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m15plus_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m15plus_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m15plus_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m15plus_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m15plus_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_num_m_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_m_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_m_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_rr_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_rr_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_rr_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_rr_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_rr_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_rr_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_rr_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_rr_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_rr_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_100k--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_100k_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_100k_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_100k_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_100k_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_100k_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_100k_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_inc_tbhiv_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_tbhiv_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_tbhiv_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mdr_pct_rr_new--by--country--year.csv",
+            "name": "ddf--datapoints--e_mdr_pct_rr_new--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mdr_pct_rr_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year.csv",
+            "name": "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mdr_pct_rr_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_100k--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_100k_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_100k_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_100k_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_100k_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_100k_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_100k_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_100k--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_100k_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_100k_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_100k_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_100k_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_100k_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_100k_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_exc_tbhiv_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_exc_tbhiv_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_exc_tbhiv_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_100k--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_100k--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_100k"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_100k_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_100k_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_100k_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_100k_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_100k_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_100k_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_num_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_mort_tbhiv_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_mort_tbhiv_num_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_mort_tbhiv_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_pop_num--by--country--year.csv",
+            "name": "ddf--datapoints--e_pop_num--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_pop_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_eligible--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_eligible--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_eligible"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_eligible_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_eligible_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_eligible_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_eligible_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_eligible_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_eligible_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_kids_pct--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_kids_pct--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_kids_pct"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_kids_pct_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_kids_pct_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_kids_pct_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_prevtx_kids_pct_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_prevtx_kids_pct_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_prevtx_kids_pct_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_in_notified_pulm--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_pulm--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_in_notified_pulm"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_in_notified_pulm_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_in_notified_pulm_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_new--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_new--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_new_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_new_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_new_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_new_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_new_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_new_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_ret--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_ret--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_ret_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_ret_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_ret_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_rr_pct_ret_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_pct_ret_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_rr_pct_ret_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_tbhiv_prct--by--country--year.csv",
+            "name": "ddf--datapoints--e_tbhiv_prct--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_tbhiv_prct"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_tbhiv_prct_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_tbhiv_prct_hi--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_tbhiv_prct_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--e_tbhiv_prct_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_tbhiv_prct_lo--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_tbhiv_prct_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--newinc_con04_prevtx--by--country--year.csv",
+            "name": "ddf--datapoints--newinc_con04_prevtx--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newinc_con04_prevtx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--prevtx_data_available--by--country--year.csv",
+            "name": "ddf--datapoints--prevtx_data_available--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "prevtx_data_available"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ptsurvey_newinc--by--country--year.csv",
+            "name": "ddf--datapoints--ptsurvey_newinc--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ptsurvey_newinc"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year.csv",
+            "name": "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ptsurvey_newinc_con04_prevtx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_drs_coverage_new--by--country--year.csv",
+            "name": "ddf--datapoints--source_drs_coverage_new--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_drs_coverage_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_drs_coverage_ret--by--country--year.csv",
+            "name": "ddf--datapoints--source_drs_coverage_ret--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_drs_coverage_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_drs_year_new--by--country--year.csv",
+            "name": "ddf--datapoints--source_drs_year_new--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_drs_year_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_drs_year_ret--by--country--year.csv",
+            "name": "ddf--datapoints--source_drs_year_ret--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_drs_year_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_hh--by--country--year.csv",
+            "name": "ddf--datapoints--source_hh--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_hh"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_rr_new--by--country--year.csv",
+            "name": "ddf--datapoints--source_rr_new--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_rr_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--source_rr_ret--by--country--year.csv",
+            "name": "ddf--datapoints--source_rr_ret--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "source_rr_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "iso3"
+                    },
+                    {
+                        "name": "iso2"
+                    },
+                    {
+                        "name": "iso_numeric"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "iso2",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "iso3",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "iso_numeric",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "c_cdr",
+                "resources": [
+                    "ddf--datapoints--c_cdr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "c_cdr_hi",
+                "resources": [
+                    "ddf--datapoints--c_cdr_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "c_cdr_lo",
+                "resources": [
+                    "ddf--datapoints--c_cdr_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "c_newinc_100k",
+                "resources": [
+                    "ddf--datapoints--c_newinc_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cfr",
+                "resources": [
+                    "ddf--datapoints--cfr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cfr_hi",
+                "resources": [
+                    "ddf--datapoints--cfr_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cfr_lo",
+                "resources": [
+                    "ddf--datapoints--cfr_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_hh_size",
+                "resources": [
+                    "ddf--datapoints--e_hh_size--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_100k",
+                "resources": [
+                    "ddf--datapoints--e_inc_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_100k_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_100k_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_100k_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_100k_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_014",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_014_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_014_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_014_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_014_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_15plus",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_15plus_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_15plus_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_15plus_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_15plus_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f014",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f014_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f014_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f014_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f014_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f15plus",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f15plus_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f15plus_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f15plus_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f15plus_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_f_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_f_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m014",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m014_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m014_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m014_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m014_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m15plus",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m15plus_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m15plus_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m15plus_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m15plus_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_num_m_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_m_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_rr_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_rr_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_rr_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_rr_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_rr_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_rr_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_100k",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_100k_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_100k_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_100k_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_100k_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_inc_tbhiv_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_tbhiv_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mdr_pct_rr_new",
+                "resources": [
+                    "ddf--datapoints--e_mdr_pct_rr_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mdr_pct_rr_ret",
+                "resources": [
+                    "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_100k",
+                "resources": [
+                    "ddf--datapoints--e_mort_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_100k_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_100k_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_100k_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_100k_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_100k",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_100k_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_100k_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_100k_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_100k_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_num",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_exc_tbhiv_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_exc_tbhiv_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_num",
+                "resources": [
+                    "ddf--datapoints--e_mort_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_100k",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_100k--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_100k_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_100k_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_100k_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_100k_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_num",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_mort_tbhiv_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_mort_tbhiv_num_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_pop_num",
+                "resources": [
+                    "ddf--datapoints--e_pop_num--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_eligible",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_eligible--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_eligible_hi",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_eligible_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_eligible_lo",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_eligible_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_kids_pct",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_kids_pct--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_kids_pct_hi",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_kids_pct_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_prevtx_kids_pct_lo",
+                "resources": [
+                    "ddf--datapoints--e_prevtx_kids_pct_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_in_notified_pulm",
+                "resources": [
+                    "ddf--datapoints--e_rr_in_notified_pulm--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_in_notified_pulm_hi",
+                "resources": [
+                    "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_in_notified_pulm_lo",
+                "resources": [
+                    "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_new",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_new_hi",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_new_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_new_lo",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_new_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_ret",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_ret_hi",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_ret_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_rr_pct_ret_lo",
+                "resources": [
+                    "ddf--datapoints--e_rr_pct_ret_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_tbhiv_prct",
+                "resources": [
+                    "ddf--datapoints--e_tbhiv_prct--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_tbhiv_prct_hi",
+                "resources": [
+                    "ddf--datapoints--e_tbhiv_prct_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "e_tbhiv_prct_lo",
+                "resources": [
+                    "ddf--datapoints--e_tbhiv_prct_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newinc_con04_prevtx",
+                "resources": [
+                    "ddf--datapoints--newinc_con04_prevtx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "prevtx_data_available",
+                "resources": [
+                    "ddf--datapoints--prevtx_data_available--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ptsurvey_newinc",
+                "resources": [
+                    "ddf--datapoints--ptsurvey_newinc--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ptsurvey_newinc_con04_prevtx",
+                "resources": [
+                    "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_drs_coverage_new",
+                "resources": [
+                    "ddf--datapoints--source_drs_coverage_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_drs_coverage_ret",
+                "resources": [
+                    "ddf--datapoints--source_drs_coverage_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_drs_year_new",
+                "resources": [
+                    "ddf--datapoints--source_drs_year_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_drs_year_ret",
+                "resources": [
+                    "ddf--datapoints--source_drs_year_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_hh",
+                "resources": [
+                    "ddf--datapoints--source_hh--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_rr_new",
+                "resources": [
+                    "ddf--datapoints--source_rr_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "source_rr_ret",
+                "resources": [
+                    "ddf--datapoints--source_rr_ret--by--country--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}
