@@ -1,17 +1,31 @@
 concept,name,concept_type
+age_group,Age group (in years),entity_domain
 country,Country or territory name,entity_domain
- e_prevtx_kids_pct,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy,measure
- e_prevtx_kids_pct_hi,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy: High bound,measure
- e_prevtx_kids_pct_lo,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy: Low bound,measure
+sex,Sex,entity_domain
 all_conf_xdr,Number of laboratory-confirmed XDR-TB cases identified in the current year (including in MDR cases diagnosed in previous years).,measure
+best,Best estimate,measure
 bmu,Number of TB Basic Management Units in the country,measure
 bmu_community_impl,Number of TB Basic Management Units which implemented community-based referrals or any form of community treatment adherence support,measure
 bmu_ref_data,Number of Basic Management Units with data on referrals by community health workers / community volunteers,measure
 bmu_rxsupport_data,Number of Basic Management Units with data on community treatment adherence support,measure
 bmu_rxsupport_data_coh,Total number of patients who started TB treatment in the Basic Management Units with data on community treatment adherence support,measure
-c_cdr,"Case detection rate (all forms), percent",measure
-c_cdr_hi,"Case detection rate (all forms), percent, high bound",measure
-c_cdr_lo,"Case detection rate (all forms), percent, low bound",measure
+budget_cpp_dstb,"Average cost of drugs budgeted per patient for drug-susceptible TB treatment, excluding buffer stock (US Dollars)",measure
+budget_cpp_mdr,"Average cost of drugs budgeted per patient for MDR-TB treatment, excluding buffer stock (US Dollars)",measure
+budget_cpp_xdr,"Average cost of drugs budgeted per patient for XDR-TB treatment, excluding buffer stock (US Dollars)",measure
+budget_fld,Budget required for drugs to treat drug-susceptible TB (US Dollars),measure
+budget_lab,"Budget required for laboratory infrastructure, equipment and supplies (US Dollars)",measure
+budget_mdrmgt,Budget required for programme costs to treat drug-resistant TB (US Dollars),measure
+budget_orsrvy,Budget required for operational research and surveys (US Dollars),measure
+budget_oth,Budget required for all other budget line items (US Dollars),measure
+budget_patsup,Budget required for patient support (US Dollars),measure
+budget_prog,Budget required for programme costs to treat drug-susceptible TB (US Dollars),measure
+budget_sld,Budget required for drugs to treat drug-resistant TB (US Dollars),measure
+budget_staff,Budget required for National TB Programme staff (central unit staff and subnational TB staff)  (US Dollars),measure
+budget_tbhiv,Budget required for collaborative TB/HIV activities (US Dollars),measure
+budget_tot,Total budget required (US Dollars),measure
+c_cdr,"Case detection rate (all forms) [also known as TB treatment coverage], percent",measure
+c_cdr_hi,"Case detection rate (all forms) [also known as TB treatment coverage], percent, high bound",measure
+c_cdr_lo,"Case detection rate (all forms) [also known as TB treatment coverage], percent, low bound",measure
 c_new_snep_tsr,"Treatment success rate for new pulmonary smear-negative/extrapulmonary/smear unknown/smear not done cases, percent  (not used after 2011)",measure
 c_new_sp_tsr,"Treatment success rate for new pulmonary smear-positive (and/or culture-positive) cases, percent  (not used after 2011)",measure
 c_new_tsr,"Treatment success rate for all new cases (including relapse cases if rel_with_new_flg = 1), percent",measure
@@ -20,6 +34,21 @@ c_newinc_100k,"Case notification rate, which is the total of new and relapse cas
 c_ret_tsr,"Treatment success rate for re-treatment cases (excluding relapse cases if rel_with_new_flg = 1), percent",measure
 c_tbhiv_tsr,"Treatment success rate for HIV-positive TB cases, percent",measure
 caseb_err_nat,Did the National Treatment Programme keep (or have access to) an electronic case-based database for TB patients on treatment at national level,measure
+cf_fld,Expected funding for drugs to treat drug-susceptible TB (US Dollars),measure
+cf_lab,"Expected funding for laboratory infrastructure, equipment and supplies (US Dollars)",measure
+cf_mdrmgt,Expected funding for programme costs to treat drug-resistant TB (US Dollars),measure
+cf_orsrvy,Expected funding for operational research and surveys (US Dollars),measure
+cf_oth,Expected funding for all other budget line items (US Dollars),measure
+cf_patsup,Expected funding for patient support (US Dollars),measure
+cf_prog,Expected funding for programme costs to treat drug-susceptible TB (US Dollars),measure
+cf_sld,Expected funding for drugs to treat drug-resistant TB (US Dollars),measure
+cf_staff,Expected funding for National TB Programme staff (central unit staff and subnational TB staff)  (US Dollars),measure
+cf_tbhiv,Expected funding for collaborative TB/HIV activities (US Dollars),measure
+cf_tot,Total expected funding for all budget line items (US Dollars),measure
+cf_tot_domestic,"Expected funding from domestic sources, including loans (US Dollars)",measure
+cf_tot_gf,"Expected funding from the Global Fund to Fight AIDS, Tuberculosis and Malaria (US Dollars)",measure
+cf_tot_grnt,Expected funding from other sources (US Dollars),measure
+cf_tot_usaid,Expected funding from USAID (US Dollars),measure
 cfr,Estimated TB case fatality ratio,measure
 cfr_hi,Estimated TB case fatality ratio: high bound,measure
 cfr_lo,Estimated TB case fatality ratio: low bound,measure
@@ -35,40 +64,19 @@ culture,Number of sites providing TB diagnostic services using culture at the en
 digital_adherence_support,"Did any treatment centre use digital technologies such as short text messaging via mobile phones, video-communication or electronic medication monitors to support TB medication adherence in patients at risk of interrupting treatment?",measure
 dst,Number of sites providing phenotypic drug susceptibility testing for first-line drugs only at the end of the reporting year,measure
 dst_eqa_pass,Number of sites providing phenotypic drug susceptibility testing for first-line drugs only that demonstrated proficiency by panel testing,measure
+dst_rlt_hr_new,Number of new bacteriologically confirmed pulmonary TB patients with test results for rifampicin and isoniazid and with resistance to isoniazid (regardless of result for rifampicin),measure
+dst_rlt_hr_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with test results for rifampicin and isoniazid and with resistance to isoniazid (regardless of result for rifampicin),measure
 dst_rlt_new,Drug resistance surveillance: Among new pulmonary TB patients with positive identification for M. Tuberculosis complex (confirmed by culture and/or line-probe assay): number of patients with available drug susceptibility testing results for isoniazid and rifampicin,measure
 dst_rlt_ret,Drug resistance surveillance: Among patients previously treated for TB with positive identification for M. Tuberculosis complex (confirmed by culture and/or line-probe assay): number of patients with available drug susceptibility testing results for isoniazid and rifampicin,measure
-dst_rlt_unk,Drug resistance surveillance: Among patients with unknown TB treatment history with positive identification for M. Tuberculosis complex (confirmed by culture and/or line-probe assay): number of patients with available drug susceptibility testing results for isoniazid and rifampicin,measure
+dst_rlt_rr_new,Number of new bacteriologically confirmed pulmonary TB patients with test results for rifampicin and isoniazid and with resistance to rifampicin (regardless of result for isoniazid),measure
+dst_rlt_rr_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with test results for rifampicin and isoniazid and with resistance to rifampicin (regardless of result for isoniazid),measure
 e_hh_size,Estimated average household size,measure
 e_inc_100k,Estimated incidence (all forms) per 100 000 population,measure
 e_inc_100k_hi,"Estimated incidence (all forms) per 100 000 population, high bound",measure
 e_inc_100k_lo,"Estimated incidence (all forms) per 100 000 population, low bound",measure
 e_inc_num,Estimated number of incident cases (all forms),measure
-e_inc_num_014,Estimated number of incident cases that are aged 0 - 14,measure
-e_inc_num_014_hi,Estimated number of incident cases that are male 0 - 14 (upper bound),measure
-e_inc_num_014_lo,Estimated number of incident cases that are aged 0 - 14 (lower bound),measure
-e_inc_num_15plus,Estimated number of incident cases that are aged 15 and over,measure
-e_inc_num_15plus_hi,Estimated number of incident cases that are aged 15 and over (upper bound),measure
-e_inc_num_15plus_lo,Estimated number of incident cases that are aged 15 and over (lower bound),measure
-e_inc_num_f,Estimated number of incident cases that are female,measure
-e_inc_num_f014,Estimated number of incident cases that are female aged 0 - 14,measure
-e_inc_num_f014_hi,Estimated number of incident cases that are female aged 0 - 14 (upper bound),measure
-e_inc_num_f014_lo,Estimated number of incident cases that are female aged 0 - 14 (lower bound),measure
-e_inc_num_f15plus,Estimated number of incident cases that are female aged 15 and over,measure
-e_inc_num_f15plus_hi,Estimated number of incident cases that are female aged 15 and over (upper bound),measure
-e_inc_num_f15plus_lo,Estimated number of incident cases that are female aged 15 and over (lower bound),measure
-e_inc_num_f_hi,Estimated number of incident cases that are female (upper bound),measure
-e_inc_num_f_lo,Estimated number of incident cases that are female (lower bound),measure
 e_inc_num_hi,"Estimated number of incident cases (all forms), high bound",measure
 e_inc_num_lo,"Estimated number of incident cases (all forms), low bound",measure
-e_inc_num_m,Estimated number of incident cases that are male,measure
-e_inc_num_m014,Estimated number of incident cases that are male aged 0 - 14,measure
-e_inc_num_m014_hi,Estimated number of incident cases that are male aged 0 - 14 (upper bound),measure
-e_inc_num_m014_lo,Estimated number of incident cases that are male aged 0 - 14 (lower bound),measure
-e_inc_num_m15plus,Estimated number of incident cases that are male aged 15 and over,measure
-e_inc_num_m15plus_hi,Estimated number of incident cases that are male aged 15 and over (upper bound),measure
-e_inc_num_m15plus_lo,Estimated number of incident cases that are male aged 15 and over (lower bound),measure
-e_inc_num_m_hi,Estimated number of incident cases that are male (upper bound),measure
-e_inc_num_m_lo,Estimated number of incident cases that are male (lower bound),measure
 e_inc_rr_num,Estimated incidence of rifampicin resistant TB (absolute number),measure
 e_inc_rr_num_hi,Estimated incidence of rifampicin resistant TB (absolute number): high bound,measure
 e_inc_rr_num_lo,Estimated incidence of rifampicin resistant TB (absolute number): low bound,measure
@@ -78,6 +86,7 @@ e_inc_tbhiv_100k_lo,"Estimated incidence of TB cases who are HIV-positive per 10
 e_inc_tbhiv_num,Estimated incidence of TB cases who are HIV-positive,measure
 e_inc_tbhiv_num_hi,"Estimated incidence of TB cases who are HIV-positive, high bound",measure
 e_inc_tbhiv_num_lo,"Estimated incidence of TB cases who are HIV-positive, low bound",measure
+e_mdr_pct_rr,Estimated percentage of rifampicin resistant TB cases that have MDR-TB,measure
 e_mdr_pct_rr_new,Estimated percentage of new rifampicin resistant TB cases that have MDR-TB,measure
 e_mdr_pct_rr_ret,Estimated percentage of previously treated rifampicin resistant TB cases that have MDR-TB,measure
 e_mort_100k,Estimated mortality of TB cases (all forms) per 100 000 population,measure
@@ -102,6 +111,9 @@ e_pop_num,Estimated total population number,measure
 e_prevtx_eligible,Estimated number of children aged under 5 who are household contacts of TB cases who are eligible for TB preventive therapy,measure
 e_prevtx_eligible_hi,Estimated number of children aged under 5 who are household contacts of TB cases who are eligible for TB preventive therapy: high bound,measure
 e_prevtx_eligible_lo,Estimated number of children aged under 5 who are household contacts of TB cases who are eligible for TB preventive therapy: low bound,measure
+e_prevtx_kids_pct,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy,measure
+e_prevtx_kids_pct_hi,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy: High bound,measure
+e_prevtx_kids_pct_lo,Estimated % of children received TB preventive therapy aged under 5 who are household contacts of TB cases and who are eligible for TB preventive therapy: Low bound,measure
 e_rr_in_notified_pulm,Estimated number of RR-TB cases among notified pulmonary TB cases,measure
 e_rr_in_notified_pulm_hi,Estimated number of RR-TB cases among notified pulmonary TB cases: high bound,measure
 e_rr_in_notified_pulm_lo,Estimated number of RR-TB cases among notified pulmonary TB cases: low bound,measure
@@ -114,13 +126,30 @@ e_rr_pct_ret_lo,Estimated percentage of previously treated TB cases with rifampi
 e_tbhiv_prct,Estimated HIV in incident TB (percent),measure
 e_tbhiv_prct_hi,"Estimated HIV in incident TB (percent), high bound",measure
 e_tbhiv_prct_lo,"Estimated HIV in incident TB (percent), low bound",measure
-eol_care,Is there a component in the TB programme that provides palliative and end-of-life care to patients who have failed MDR-TB treatment or who have life-threatening sequelae of disease?,measure
+exp_cpp_dstb,"Average cost of drugs spent per patient starting first-line TB treatment, excluding buffer stock (US Dollars)",measure
+exp_cpp_mdr,"Average cost of drugs spent per patient starting second-line treatment for MDR-TB, excluding buffer stock (US Dollars)",measure
+exp_cpp_xdr,"Average cost of drugs spent per patient starting XDR-TB treatment, excluding buffer stock (US Dollars)",measure
+exp_fld,Actual expenditure on drugs to treat drug-susceptible TB (US Dollars),measure
+exp_lab,"Actual expenditure on laboratory infrastructure, equipment and supplies (US Dollars)",measure
+exp_mdrmgt,Actual expenditure on programme costs to treat drug-resistant TB (US Dollars),measure
+exp_orsrvy,Actual expenditure on operational research and surveys (US Dollars),measure
+exp_oth,Actual expenditure on all other budget line items (US Dollars),measure
+exp_patsup,Actual expenditure on patient support (US Dollars),measure
+exp_prog,Actual expenditure on programme costs to treat drug-susceptible TB (US Dollars),measure
+exp_sld,Actual expenditure on drugs to treat drug-resistant TB (US Dollars),measure
+exp_staff,Actual expenditure on National TB Programme staff (central unit staff and subnational TB staff)  (US Dollars),measure
+exp_tbhiv,Actual expenditure on collaborative TB/HIV activities (US Dollars),measure
+exp_tot,Total actual expenditure (US Dollars),measure
 free_dx_followup,"Does national policy indicate that TB diagnostic and follow-up tests provided through the national TB programme are free of charge or that fees can be fully reimbursed through health insurance, or both, for all people with signs or symptoms of TB?",measure
+hcfvisit_dstb,Typical number of visits to a health facility after diagnosis for patients starting first-line TB treatment,measure
+hcfvisit_mdr,Typical number of visits to a health facility after diagnosis for patients starting MDR-TB/XDR-TB treatment,measure
 hcw_tb_infected,Number of health-care workers who had TB,measure
 hcw_tot,Total number of health-care workers who were working in the country in the public and private sector,measure
+hi,High bound of estimate,measure
 hiv_art,HIV-positive TB patients started or continued on antiretroviral therapy (ART),measure
 hiv_cpt,HIV-positive TB patients started or continued on co-trimoxazole preventive therapy (CPT),measure
-hiv_ipt,People registered as HIV-positive given isoniazid prophylaxis (treatment of latent TB infection),measure
+hiv_ipt,People living with HIV newly enrolled in HIV care who started treatment for latent TB infection,measure
+hiv_ipt_reg_all,People living with HIV currently enrolled in HIV care who started treatment for latent TB infection,measure
 hiv_new_snep_cmplt,Outcomes for new pulmonary smear-negative/extrapulmonary/smear unknown/smear not done HIV-positive TB cases: completed  (not used after 2011),measure
 hiv_new_snep_coh,Outcomes for new pulmonary smear-negative/extrapulmonary/smear unknown/smear not done HIV-positive TB cases: cohort size  (not used after 2011),measure
 hiv_new_snep_def,Outcomes for new pulmonary smear-negative/extrapulmonary/smear unknown/smear not done HIV-positive TB cases: defaulted  (not used after 2011),measure
@@ -133,6 +162,7 @@ hiv_new_sp_def,Outcomes for new pulmonary smear-positive (and/or culture-positiv
 hiv_new_sp_died,Outcomes for new pulmonary smear-positive (and/or culture-positive) HIV-positive TB cases: died (not used after 2011),measure
 hiv_new_sp_fail,Outcomes for new pulmonary smear-positive (and/or culture-positive) HIV-positive TB cases: failed (not used after 2011),measure
 hiv_reg,Total number of people registered as HIV-positive regardless of year of diagnosis. (Total number of adults and children enrolled in HIV care; includes everyone in the HIV care and/or ART register),measure
+hiv_reg_all,Number of adults and children currently enrolled in HIV care during the year.,measure
 hiv_reg_new,Number of adults and children newly enrolled in HIV care during the year.,measure
 hiv_reg_new2,Total number of adults and children newly enrolled in pre-ART care or on ART during the reporting period,measure
 hiv_ret_cmplt,Outcomes for re-treatment HIV-positive TB cases: completed (not used after 2011),measure
@@ -145,6 +175,11 @@ hiv_tbdetect,Total number of adults and children newly enrolled in HIV care who 
 hiv_tbscr,Number of adults and children enrolled in HIV care who had their TB status assessed and recorded during their last visit,measure
 hivtest,TB patients (new and re-treatment) with an HIV test result recorded in the TB register,measure
 hivtest_pos,TB patients (new and re-treatment) recorded as HIV-positive,measure
+hosp_type_mdr,Type of facility most often used if MDR-TB patients are hospitalized,measure
+hospd_dstb_dur,Estimated average duration of stay if patients starting first-line TB treatment are hospitalized (days),measure
+hospd_dstb_prct,Estimated percentage of patients starting first-line TB treatment that are hospitalized (%),measure
+hospd_mdr_dur,Estimated average duration of stay if patients starting MDR-TB/XDR-TB treatment are hospitalized (days),measure
+hospd_mdr_prct,Estimated percentage of patients starting MDR-TB/XDR-TB treatment that are hospitalized (%),measure
 lab_cul,Number of laboratories providing TB diagnostic services using culture,measure
 lab_dst,Number of laboratories providing TB diagnostic services using drug susceptibility testing,measure
 lab_dst_eqa,Number of drug susceptibility testing laboratories for which External Quality Assessment (EQA) was carried out,measure
@@ -158,6 +193,7 @@ lab_sm_eqa_pass,Number of smear microscopy laboratories which demonstrated accep
 lab_sm_led,Number of laboratories providing TB diagnostic services using LED microscopes for smear microscopy,measure
 lab_xpert,Number of laboratories providing TB diagnostic services using xpert MTB/RIF,measure
 lab_xpert_eqa,Number of laboratories providing TB diagnostic services using xpert MTB/RIF for which External Quality Assessment (EQA) was carried out,measure
+lo,Low bound of estimate,measure
 lpa,Number of sites providing Line Probe Assay services at the end of the reporting year,measure
 lpa_eqa_pass,Number of sites providing Line Probe Assay services that demonstrated proficiency by panel testing,measure
 mdr_coh,Outcomes for MDR-TB cases: cohort size,measure
@@ -171,11 +207,12 @@ mdr_shortreg_tx,Number of patients started on shorter MDR-TB treatment regiments
 mdr_shortreg_used,Had any patients been started on shorter MDR-TB treatment regimens by the end of the reporting year?,measure
 mdr_succ,Outcomes for MDR-TB cases: treatment success (Cured or treatment completed),measure
 mdr_tx_adverse_events,Number of patients on MDR-TB treatment who had adverse events registered in the reporting year,measure
-mdr_tx_nonntp,Number of patients started on MDR-TB treatment by non-NTP providers in the reporting year,measure
-mdr_unk,Drug resistance surveillance: Among patients with unknown TB treatment history with available drug susceptibility testing results (variable dst_rlt_unk):  number of patients with resistance to isoniazid and rifampicin  (MDR-TB),measure
 mdrxdr_bdq_tx,Number of patients started on Bedaquiline during the reporting year,measure
 mdrxdr_bdq_used,"Had any TB patients been started on Bedaquiline for the treatment of MDR-/XDR-TB by the end of reporting year as part of expanded access, compassionate use or under normal programmatic use, whether in the public or private sector?",measure
+mdrxdr_dlm_tx,Number of patients started on Delamanid during the reporting year,measure
 mdrxdr_dlm_used,"Had any TB patients been started on Delamanid for the treatment of MDR-/XDR-TB by the end of reporting as part of expanded access, compassionate use or under normal programmatic use, whether in the public or private sector?",measure
+mdrxdr_fail_morphine,Number of patients who started second-line TB treatment 3 years previously whose treatment failed and who received oral morphine by prescription to treat pain or terminal dyspnoea,measure
+measure,The measure of TB burden being estimated,measure
 new_clindx,"New pulmonary clinically diagnosed TB cases (not bacteriologically confirmed as positive for TB, but diagnosed with active TB by a clinician or another medical practitioner who has decided to give the patient a full course of TB treatment).  It also includes pulmonary clinically diagnosed cases with unknown previous TB treatment history.",measure
 new_ep,New extrapulmonary cases (bacteriologically confirmed or clinically diagnosed). As of 2013 this also includes extrapulmonary cases with unknown previous TB treatment history.,measure
 new_ep_f014,New extrapulmonary cases: females aged 0-14 years (not used after 2012),measure
@@ -269,6 +306,7 @@ new_sp_m65,New pulmonary smear positive cases: males aged 65 years and over (not
 new_sp_mu,New pulmonary smear positive cases: males age unknown (not used after 2012),measure
 new_su,New pulmonary smear unknown/not done cases,measure
 newinc_con04_prevtx,(If prevtx_data_available=60) Number of children aged under 5 started on TB preventive therapy who are household contacts of bacteriologically-confirmed new and relapse TB cases notified,measure
+newinc_con5plus_prevtx,"(If prevtx_5plus_data_available=60) Number of children aged 5 years and above, adolescents and adults started on TB preventive therapy who are household contacts of bacteriologically-confirmed new and relapse TB cases notified",measure
 newinc_rdx,(if rdx_data_available=60) Number of new and relapse cases notified and tested using a WHO-recommended rapid diagnostic (for example Xpert MTB/RIF) at the time of TB diagnosis (regardless of test result),measure
 newrel_art,"HIV-positive new and relapse (or all, if newrel_tbhiv_flg = 0 and year > 2015) TB patients started or continued on antiretroviral therapy",measure
 newrel_coh,Outcomes for all new and relapse cases (but only new cases if rel_with_new_flg = 0): cohort size,measure
@@ -314,12 +352,35 @@ nrl,Was there a national reference laboratory or laboratories (NRL)?,measure
 nrl_iso15189,Has the national reference laboratory (or national reference laboratories) achieved national or international accreditation according to the ISO 15189 standard?,measure
 nrl_qms,Has a formal quality management system towards achieving laboratory accreditation been implemented at the National Reference Laboratory?,measure
 nrl_srl_link,Has a formal link been established between the National Reference Laboratory and a partner Supranational Reference Laboratory?,measure
+prevtx_5plus_data_available,"Are data available on the number of children aged 5 years and above, adolescents and adults who are household contacts of TB cases and started on TB preventive therapy?",measure
 prevtx_data_available,Are data available on the number of children aged under 5 who are household contacts of TB cases and started on TB preventive therapy?,measure
 priv_new_dx,Number of new cases of TB diagnosed according to National Treatment Programme (NTP)  guidelines by private providers,measure
 ptsurvey_newinc,(If prevtx_data_available=61) Number of bacteriologically-confirmed TB new and relapse cases notified in the reporting year whose medical records or treatment cards were included in a survey,measure
+ptsurvey_newinc_5plus,(If prevtx_5plus_data_available=61) Number of bacteriologically-confirmed TB new and relapse cases notified in the reporting year whose medical records or treatment cards were included in a survey,measure
 ptsurvey_newinc_con04_prevtx,(If prevtx_data_available=61) Number of children aged under 5 started on TB preventive therapy who are household contacts of the TB cases in ptsurvey_newinc,measure
+ptsurvey_newinc_con5plus_prevtx,"(If prevtx_5plus_data_available=61) Number of children aged 5 years and above, adolescents and adults started on TB preventive therapy who are household contacts of the TB cases in ptsurvey_newinc_5plus",measure
 pub_new_dx,Number of new cases of TB diagnosed according to National Treatment Programme (NTP)  guidelines by non-NTP public providers,measure
+pulm_labconf_new,Number of new bacteriologically confirmed pulmonary TB cases,measure
+pulm_labconf_ret,Number of previously treated bacteriologically confirmed pulmonary TB cases,measure
+pulm_labconf_unk,Number of bacteriologically confirmed pulmonary TB cases with unknown TB treatment history,measure
 qms,"Is a formal quality management system towards achieving accreditation being implemented in all laboratories conducting culture, LPA and/or DST?",measure
+r_rlt_new,Number of new bacteriologically confirmed pulmonary TB patients with test results for rifampicin,measure
+r_rlt_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with test results for rifampicin,measure
+rcvd_fld,Funding received for drugs to treat drug-susceptible TB (US Dollars),measure
+rcvd_lab,"Funding received for laboratory infrastructure, equipment and supplies (US Dollars)",measure
+rcvd_mdrmgt,Funding received for programme costs to treat drug-resistant TB (US Dollars),measure
+rcvd_orsrvy,Funding received for operational research and surveys (US Dollars),measure
+rcvd_oth,Funding received for all other budget line items (US Dollars),measure
+rcvd_patsup,Funding received for patient support (US Dollars),measure
+rcvd_prog,Funding received for programme costs to treat drug-susceptible TB (US Dollars),measure
+rcvd_sld,Funding received for drugs to treat drug-resistant TB (US Dollars),measure
+rcvd_staff,Funding received for National TB Programme staff (central unit staff and subnational TB staff)  (US Dollars),measure
+rcvd_tbhiv,Funding received for collaborative TB/HIV activities (US Dollars),measure
+rcvd_tot,Total funding received for all budget line items (US Dollars),measure
+rcvd_tot_domestic,"Funding received from domestic sources, including loans (US Dollars)",measure
+rcvd_tot_gf,"Funding received from the Global Fund to Fight AIDS, Tuberculosis and Malaria (US Dollars)",measure
+rcvd_tot_grnt,Funding received from other sources (US Dollars),measure
+rcvd_tot_usaid,Funding received from USAID (US Dollars),measure
 rdst_new,"Number of TB cases (pulmonary or extrapulmonary) tested for susceptibility to rifampicin using phenotypic DST or WHO-recommended rapid molecular diagnostics (e.g. Xpert MTB/RIF), before or after starting treatment: new cases",measure
 rdst_ret,"Number of TB cases (pulmonary or extrapulmonary) tested for susceptibility to rifampicin using phenotypic DST or WHO-recommended rapid molecular diagnostics (e.g. Xpert MTB/RIF), before or after starting treatment: previously treated cases",measure
 rdst_unk,"Number of TB cases (pulmonary or extrapulmonary) tested for susceptibility to rifampicin using phenotypic DST or WHO-recommended rapid molecular diagnostics (e.g. Xpert MTB/RIF), before or after starting treatment: cases with unknown previous TB treatment history",measure
@@ -348,6 +409,13 @@ ret_rel_ep,Relapse extrapulmonary cases (bacteriologically confirmed or clinical
 ret_rel_labconf,Relapse  pulmonary bacteriologically confirmed TB cases (smear positive or culture positive or positive by WHO-recommended rapid diagnostics such as Xpert MTB/RIF).,measure
 ret_tad,Treatment after default cases,measure
 ret_taf,Treatment after failure cases,measure
+rr_dr_2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to second-line injectable agents,measure
+rr_dr_fq,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to fluoroquinolones,measure
+rr_dr_fq_2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to both fluoroquinolones and second-line injectable agents,measure
+rr_ds_fq2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and susceptible to both fluoroquinolones and second-line injectable agents,measure
+rr_dst_rlt,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and with test results for any fluoroquinolone and any second-line injectable agent,measure
+rr_new,Number of new bacteriologically confirmed pulmonary TB patients with resistance to rifampicin (RR-TB),measure
+rr_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin (RR-TB),measure
 rr_sldst,Number of laboratory-confirmed RR-TB or MDR-TB cases tested for susceptibility to second-line drugs (fluoroquinolones and second-line injectable agents),measure
 rxsupport_community_coh,Total number of patients who started TB treatment and who received any form of treatment adherence support from community health workers / community volunteers in the Basic Management Units with data on community treatment adherence support,measure
 rxsupport_community_succ,Total number of patients who were cured or who completed treatment among the cases who started TB treatment and who received any form of treatment adherence support from community health workers / community volunteers in the Basic Management Units with data on community treatment adherence support,measure
@@ -373,8 +441,12 @@ tbhiv_surv_ciu,Upper limit (95% confidence interval) of prevalence (%) of HIV in
 tbhiv_surv_prev,"Prevalence (%) of HIV in TB patients estimated using nationwide representative
 surveys",measure
 tbhiv_surv_yr,Year in which prevalence of HIV in TB patients was estimated using nationwide representative surveys,measure
+tx_dstb,Number of patients expected to start drug-susceptible TB treatment,measure
+tx_mdr,Number of patients expected to start MDR-TB treatment,measure
+tx_xdr,Number of patients expected to start XDR-TB treatment,measure
 unconf_mdr_tx,Number of MDR-TB (not laboratory-confirmed) patients who started treatment for MDR-TB,measure
 unconf_rrmdr_tx,Number of patients (not laboratory-confirmed as having rifampicin-resistant (RR-TB) or multidrg-resistant TB (MDR-TB)) who started treatment for MDR-TB,measure
+unit,The unit of measurement,measure
 universal_dst,Does national policy and the diagnostic algorithm indicate there is universal access to drug susceptibility testing?,measure
 wrd_initial_test,Does national policy and the diagnostic algorithm indicate a WHO-recommended rapid diagnostic as the initial diagnostic test for all people with signs or symptoms of TB?,measure
 xdr,Drug resistance surveillance: Among pulmonary MDR-TB patients with drug susceptibility test results for any fluoroquinolone (FQ) and any second-line injectable agent (2LI) (variable mdr_dst_rlt): number with any resistance to both FQ and 2LI (i.e. XDR-TB),measure
@@ -384,18 +456,14 @@ xdr_fail,Outcomes for XDR-TB cases: number whose treatment failed,measure
 xdr_lost,Outcomes for XDR-TB cases: lost to follow-up,measure
 xdr_succ,Outcomes for XDR-TB cases: treatment success (Cured or treatment completed),measure
 xpert,Number of sites providing TB diagnostic services using Xpert MTB/RIF at the end of the reporting year,measure
-xpert_dr_r_new,Among new pulmonary TB patients with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay: number with resistance to rifampicin,measure
-xpert_dr_r_ret,Among previously treated pulmonary TB patients with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay: number with resistance to rifampicin,measure
-xpert_dr_r_unk,Among pulmonary TB patients with unknown previous TB treatment history with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay: number with resistance to rifampicin,measure
 xpert_eqa,Number of sites providing TB diagnostic services using Xpert MTB/RIF covered by a comprehensive EQA system,measure
 xpert_etrans,Number of sites using Xpert MTB/RIF which transmit results automatically to clinicians and to an information management system,measure
-xpert_new,Number of new pulmonary TB patients with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay,measure
-xpert_ret,Number of previously treated pulmonary TB patients with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay,measure
-xpert_unk,Number of pulmonary TB patients with unknown previous TB treatment history with positive identification for M. Tuberculosis complex confirmed by Xpert MTB/RIF alone and who are not confirmed by culture and/or line-probe assay,measure
+cf_tot_sources,Total expected funding from all sources (US Dollars),string
 iso2,ISO 2-character country/territory code,string
 iso3,ISO 3-character country/territory code,string
 iso_numeric,ISO numeric country/territory code,string
 name,Name,string
+rcvd_tot_sources,Total funding received from all sources (US Dollars),string
 source_drs_coverage_new,Indicates whether national or subnational data from drug resistance surveys or surveillance was used to estimate the proportion of new TB cases with MDR-TB,string
 source_drs_coverage_ret,Indicates whether national or subnational data from drug resistance surveys or surveillance was used to estimate the proportion of previously treated TB cases with MDR-TB,string
 source_drs_year_new,"Year of drug resistance surveillance, survey or model used to estimate proportion of new TB cases with MDR-TB",string
