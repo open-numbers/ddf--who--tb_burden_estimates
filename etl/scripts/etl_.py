@@ -3,11 +3,11 @@
 import pandas as pd
 from ddf_utils.str import to_concept_id
 
-tb_source = '../source/TB_burden_countries_2019-03-13.csv'
-mdr_source = '../source/MDR_RR_TB_burden_estimates_2019-03-13.csv'
-ltbi_source = '../source/LTBI_estimates_2019-03-13.csv'
-dic_source = '../source/TB_data_dictionary_2019-03-13.csv'
-tb2_source = '../source/TB_burden_age_sex_2019-03-13.csv'
+tb_source = '../source/TB_burden_countries.csv'
+mdr_source = '../source/MDR_RR_TB_burden_estimates.csv'
+ltbi_source = '../source/LTBI_estimates.csv'
+dic_source = '../source/TB_data_dictionary.csv'
+tb2_source = '../source/TB_burden_age_sex.csv'
 
 
 def get_indicator_cols(df, other_cols):
