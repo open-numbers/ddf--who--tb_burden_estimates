@@ -4,11 +4,11 @@
         "name": "English",
         "id": "en"
     },
-    "author": "Gapminder",
-    "created": "2019-03-15T07:36:28.836874+00:00",
-    "description": "WHO TB burden estimates",
-    "license": "CC-BY-4.0",
     "title": "WHO TB burden estimates",
+    "description": "WHO TB burden estimates",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "created": "2021-01-26T15:25:29.451825+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -178,6 +178,69 @@
             }
         },
         {
+            "name": "ddf--datapoints--cfr_pct--by--country--year",
+            "path": "ddf--datapoints--cfr_pct--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr_pct"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cfr_pct_hi--by--country--year",
+            "path": "ddf--datapoints--cfr_pct_hi--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr_pct_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cfr_pct_lo--by--country--year",
+            "path": "ddf--datapoints--cfr_pct_lo--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cfr_pct_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--e_hh_size--by--country--year",
             "path": "ddf--datapoints--e_hh_size--by--country--year.csv",
             "schema": {
@@ -262,6 +325,39 @@
             }
         },
         {
+            "name": "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex",
+            "path": "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "risk_factor"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "e_inc_num"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year",
+                    "age_group",
+                    "risk_factor",
+                    "sex"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--e_inc_num--by--country--year--age_group--sex",
             "path": "ddf--datapoints--e_inc_num--by--country--year--age_group--sex.csv",
             "schema": {
@@ -312,6 +408,39 @@
             }
         },
         {
+            "name": "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--risk_factor--sex",
+            "path": "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--risk_factor--sex.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "risk_factor"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "e_inc_num_hi"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year",
+                    "age_group",
+                    "risk_factor",
+                    "sex"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--sex",
             "path": "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--sex.csv",
             "schema": {
@@ -358,6 +487,39 @@
                 "primaryKey": [
                     "country",
                     "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--risk_factor--sex",
+            "path": "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--risk_factor--sex.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "risk_factor"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "e_inc_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year",
+                    "age_group",
+                    "risk_factor",
+                    "sex"
                 ]
             }
         },
@@ -1189,8 +1351,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_rr_in_notified_pulm--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_pulm--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year",
+            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1200,7 +1362,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "e_rr_in_notified_pulm"
+                        "name": "e_rr_in_notified_labconf_pulm"
                     }
                 ],
                 "primaryKey": [
@@ -1210,8 +1372,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year",
+            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1221,7 +1383,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "e_rr_in_notified_pulm_hi"
+                        "name": "e_rr_in_notified_labconf_pulm_hi"
                     }
                 ],
                 "primaryKey": [
@@ -1231,8 +1393,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year",
+            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1242,7 +1404,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "e_rr_in_notified_pulm_lo"
+                        "name": "e_rr_in_notified_labconf_pulm_lo"
                     }
                 ],
                 "primaryKey": [
@@ -1483,6 +1645,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--ptsurvey_newinc--by--country--year",
+            "path": "ddf--datapoints--ptsurvey_newinc--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ptsurvey_newinc"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year",
+            "path": "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ptsurvey_newinc_con04_prevtx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--source_drs_coverage_new--by--country--year",
             "path": "ddf--datapoints--source_drs_coverage_new--by--country--year.csv",
             "schema": {
@@ -1669,6 +1873,21 @@
             }
         },
         {
+            "name": "ddf--entities--risk_factor",
+            "path": "ddf--entities--risk_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "risk_factor"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "risk_factor"
+            }
+        },
+        {
             "name": "ddf--entities--sex",
             "path": "ddf--entities--sex.csv",
             "schema": {
@@ -1749,6 +1968,15 @@
                 "value": "name",
                 "resources": [
                     "ddf--entities--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "risk_factor"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--risk_factor"
                 ]
             },
             {
@@ -1837,6 +2065,36 @@
                     "country",
                     "year"
                 ],
+                "value": "cfr_pct",
+                "resources": [
+                    "ddf--datapoints--cfr_pct--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cfr_pct_hi",
+                "resources": [
+                    "ddf--datapoints--cfr_pct_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cfr_pct_lo",
+                "resources": [
+                    "ddf--datapoints--cfr_pct_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "e_hh_size",
                 "resources": [
                     "ddf--datapoints--e_hh_size--by--country--year"
@@ -1876,6 +2134,19 @@
                 "primaryKey": [
                     "age_group",
                     "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
                     "sex",
                     "year"
                 ],
@@ -1898,6 +2169,19 @@
                 "primaryKey": [
                     "age_group",
                     "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--risk_factor--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
                     "sex",
                     "year"
                 ],
@@ -1914,6 +2198,19 @@
                 "value": "e_inc_num_hi",
                 "resources": [
                     "ddf--datapoints--e_inc_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--risk_factor--sex"
                 ]
             },
             {
@@ -2313,9 +2610,9 @@
                     "country",
                     "year"
                 ],
-                "value": "e_rr_in_notified_pulm",
+                "value": "e_rr_in_notified_labconf_pulm",
                 "resources": [
-                    "ddf--datapoints--e_rr_in_notified_pulm--by--country--year"
+                    "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year"
                 ]
             },
             {
@@ -2323,9 +2620,9 @@
                     "country",
                     "year"
                 ],
-                "value": "e_rr_in_notified_pulm_hi",
+                "value": "e_rr_in_notified_labconf_pulm_hi",
                 "resources": [
-                    "ddf--datapoints--e_rr_in_notified_pulm_hi--by--country--year"
+                    "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year"
                 ]
             },
             {
@@ -2333,9 +2630,9 @@
                     "country",
                     "year"
                 ],
-                "value": "e_rr_in_notified_pulm_lo",
+                "value": "e_rr_in_notified_labconf_pulm_lo",
                 "resources": [
-                    "ddf--datapoints--e_rr_in_notified_pulm_lo--by--country--year"
+                    "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year"
                 ]
             },
             {
@@ -2446,6 +2743,26 @@
                 "value": "prevtx_data_available",
                 "resources": [
                     "ddf--datapoints--prevtx_data_available--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ptsurvey_newinc",
+                "resources": [
+                    "ddf--datapoints--ptsurvey_newinc--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ptsurvey_newinc_con04_prevtx",
+                "resources": [
+                    "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year"
                 ]
             },
             {
