@@ -9,12 +9,15 @@ ltbi_source = '../source/LTBI_estimates.csv'
 dic_source = '../source/TB_data_dictionary.csv'
 tb2_source = '../source/TB_burden_age_sex.csv'
 
+ignore_cols = ['country', 'iso2', 'iso_numeric', 'measure', 'unit', 'g_whoregion']
 
-def get_indicator_cols(df, other_cols):
+
+def get_indicator_cols(df, other_cols=ignore_cols):
     """get indicator columns given the non-indicator columns"""
     cols = list(df.columns)
     for c in other_cols:
-        cols.remove(c)
+        if c in cols:
+            cols.remove(c)
     return cols
 
 
@@ -24,11 +27,11 @@ def create_datapoints(df_, idx_columns):
         if df.empty:
             print(f'{c} is empty')
             continue
-    cols = idx_columns.copy()
-    cols.append(c)
-    df.columns = cols
-    by = '--'.join(idx_columns)
-    df.to_csv(f'../../ddf--datapoints--{c}--by--{by}.csv', index=False)
+        cols = idx_columns.copy()
+        cols.append(c)
+        df.columns = cols
+        by = '--'.join(idx_columns)
+        df.to_csv(f'../../ddf--datapoints--{c}--by--{by}.csv', index=False)
 
 
 def main():
@@ -41,27 +44,34 @@ def main():
 
     # datapoints
     print('generating datapoints...')
-    cols = get_indicator_cols(tb, ['country', 'iso2', 'iso_numeric', 'g_whoregion'])
+    cols = get_indicator_cols(tb)
     tb_ = tb[cols].copy()
     tb_['iso3'] = tb_['iso3'].str.lower()
     tb_ = tb_.set_index(['iso3', 'year'])
     create_datapoints(tb_, ['country', 'year'])
 
-    cols = get_indicator_cols(tb2, ['country', 'iso2', 'iso_numeric', 'measure', 'unit'])
+    cols = get_indicator_cols(tb2)
     tb2_ = tb2[cols].copy()
     tb2_['iso3'] = tb2_['iso3'].str.lower()
     tb2_['age_group'] = tb2_['age_group'].map(to_concept_id)
+    # rename indicators
     tb2_ = tb2_.rename(columns={'best': 'e_inc_num', 'lo': 'e_inc_num_lo', 'hi': 'e_inc_num_hi'})
-    tb2_ = tb2_.set_index(['iso3', 'year', 'age_group', 'sex'])
-    create_datapoints(tb2_, ['country', 'year', 'age_group', 'sex'])
+    # datapoint for all risk factor
+    tb2_1 = tb2_.loc[tb2_['risk_factor'] == 'all'].drop('risk_factor', axis=1)
+    tb2_1 = tb2_1.set_index(['iso3', 'year', 'age_group', 'sex'])
+    create_datapoints(tb2_1, ['country', 'year', 'age_group', 'sex'])
+    # datapoint disaggregated by risk_factor
+    tb2_2 = tb2_.loc[tb2_['risk_factor'] != 'all']
+    tb2_2 = tb2_2.set_index(['iso3', 'year', 'age_group', 'risk_factor', 'sex'])
+    create_datapoints(tb2_2, ['country', 'year', 'age_group', 'risk_factor', 'sex'])
 
-    cols = get_indicator_cols(mdr, ['country', 'iso2', 'iso_numeric'])
+    cols = get_indicator_cols(mdr)
     mdr_ = mdr[cols].copy()
     mdr_['iso3'] = mdr_['iso3'].str.lower()
     mdr_ = mdr_.set_index(['iso3', 'year'])
     create_datapoints(mdr_, ['country', 'year'])
 
-    cols = get_indicator_cols(ltbi, ['country', 'iso2', 'iso_numeric'])
+    cols = get_indicator_cols(ltbi)
     ltbi_ = ltbi[cols].copy()
     ltbi_['iso3'] = ltbi_['iso3'].str.lower()
     ltbi_ = ltbi_.set_index(['iso3', 'year'])
@@ -77,6 +87,7 @@ def main():
     cdf.loc[cdf.concept == 'country', 'concept_type'] = 'entity_domain'
     cdf.loc[cdf.concept == 'age_group', 'concept_type'] = 'entity_domain'
     cdf.loc[cdf.concept == 'sex', 'concept_type'] = 'entity_domain'
+    cdf.loc[cdf.concept == 'risk_factor', 'concept_type'] = 'entity_domain'
 
     cdf_2 = pd.DataFrame([], columns=['concept', 'name', 'concept_type'])
     cdf_2['concept'] = ['name', 'year']
@@ -90,7 +101,8 @@ def main():
     country1 = tb[['country', 'iso2', 'iso3', 'iso_numeric']]
     country2 = ltbi[['country', 'iso2', 'iso3', 'iso_numeric']]
     country3 = mdr[['country', 'iso2', 'iso3', 'iso_numeric']]
-    country = pd.concat([country1, country2, country3], ignore_index=True)
+    country4 = tb2[['country', 'iso2', 'iso3', 'iso_numeric']]
+    country = pd.concat([country1, country2, country3, country4], ignore_index=True)
     country = (country
                .drop_duplicates()
                .rename(columns={'country': 'name'}))
@@ -105,6 +117,18 @@ def main():
     sexs = tb2['sex'].drop_duplicates()
     sexs = pd.DataFrame({'sex': sexs, 'name': ['all', 'female', 'male']})
     sexs.to_csv('../../ddf--entities--sex.csv', index=False)
+
+    # risk factor
+    # alc=Harmful use of alcohol; dia=Diabetes; hiv=HIV; smk=Smoking; und=Undernourishment
+    risks = tb2[['risk_factor']].drop_duplicates()
+    risks = risks[risks['risk_factor'] != 'all']
+    risk_names = dict(alc="Harmful use of alcohol",
+                      dia="Diabetes",
+                      hiv="HIV",
+                      smk="Smoking",
+                      und="Undernourishment")
+    risks['name'] = risks['risk_factor'].map(risk_names)
+    risks.to_csv('../../ddf--entities--risk_factor.csv', index=False)
 
     print('Done.')
 
