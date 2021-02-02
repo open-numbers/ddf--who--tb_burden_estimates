@@ -37,12 +37,12 @@ def create_datapoints(df_, idx_columns):
 
 def main():
     print('reading source files...')
-    tb = pd.read_csv(tb_source)
-    mdr = pd.read_csv(mdr_source)
-    ltbi = pd.read_csv(ltbi_source)
-    dic = pd.read_csv(dic_source)
-    tb2 = pd.read_csv(tb2_source)
-    noti = pd.read_csv(noti_source)
+    tb = pd.read_csv(tb_source, na_values=[''], keep_default_na=False)
+    mdr = pd.read_csv(mdr_source, na_values=[''], keep_default_na=False)
+    ltbi = pd.read_csv(ltbi_source, na_values=[''], keep_default_na=False)
+    dic = pd.read_csv(dic_source, na_values=[''], keep_default_na=False)
+    tb2 = pd.read_csv(tb2_source, na_values=[''], keep_default_na=False)
+    noti = pd.read_csv(noti_source, na_values=[''], keep_default_na=False)
 
     # datapoints
     print('generating datapoints...')
