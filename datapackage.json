@@ -8,7 +8,7 @@
     "description": "WHO TB burden estimates",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2021-01-26T15:25:29.451825+00:00",
+    "created": "2021-02-02T07:46:31.880748+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -28,6 +28,48 @@
                     }
                 ],
                 "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--agegroup_option--by--country--year",
+            "path": "ddf--datapoints--agegroup_option--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "agegroup_option"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--all_conf_xdr--by--country--year",
+            "path": "ddf--datapoints--all_conf_xdr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "all_conf_xdr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
             }
         },
         {
@@ -85,6 +127,27 @@
                     },
                     {
                         "name": "c_cdr_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--c_newinc--by--country--year",
+            "path": "ddf--datapoints--c_newinc--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "c_newinc"
                     }
                 ],
                 "primaryKey": [
@@ -232,6 +295,111 @@
                     },
                     {
                         "name": "cfr_pct_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_mdr--by--country--year",
+            "path": "ddf--datapoints--conf_mdr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_mdr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_mdr_tx--by--country--year",
+            "path": "ddf--datapoints--conf_mdr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_mdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rrmdr--by--country--year",
+            "path": "ddf--datapoints--conf_rrmdr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rrmdr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rrmdr_tx--by--country--year",
+            "path": "ddf--datapoints--conf_rrmdr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rrmdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_xdr_tx--by--country--year",
+            "path": "ddf--datapoints--conf_xdr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_xdr_tx"
                     }
                 ],
                 "primaryKey": [
@@ -1603,6 +1771,2148 @@
             }
         },
         {
+            "name": "ddf--datapoints--hiv_art--by--country--year",
+            "path": "ddf--datapoints--hiv_art--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_art"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_cpt--by--country--year",
+            "path": "ddf--datapoints--hiv_cpt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_cpt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_ipt--by--country--year",
+            "path": "ddf--datapoints--hiv_ipt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_ipt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_ipt_reg_all--by--country--year",
+            "path": "ddf--datapoints--hiv_ipt_reg_all--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_ipt_reg_all"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_reg--by--country--year",
+            "path": "ddf--datapoints--hiv_reg--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_reg"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_reg_all--by--country--year",
+            "path": "ddf--datapoints--hiv_reg_all--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_reg_all"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_reg_new--by--country--year",
+            "path": "ddf--datapoints--hiv_reg_new--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_reg_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_reg_new2--by--country--year",
+            "path": "ddf--datapoints--hiv_reg_new2--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_reg_new2"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_tbdetect--by--country--year",
+            "path": "ddf--datapoints--hiv_tbdetect--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_tbdetect"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_tbscr--by--country--year",
+            "path": "ddf--datapoints--hiv_tbscr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_tbscr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hivtest--by--country--year",
+            "path": "ddf--datapoints--hivtest--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hivtest"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hivtest_pos--by--country--year",
+            "path": "ddf--datapoints--hivtest_pos--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hivtest_pos"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_shortreg_tx--by--country--year",
+            "path": "ddf--datapoints--mdr_shortreg_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_shortreg_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_shortreg_used--by--country--year",
+            "path": "ddf--datapoints--mdr_shortreg_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_shortreg_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_tx_adsm--by--country--year",
+            "path": "ddf--datapoints--mdr_tx_adsm--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_tx_adsm"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_tx_adverse_events--by--country--year",
+            "path": "ddf--datapoints--mdr_tx_adverse_events--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_tx_adverse_events"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_alloral_tx--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_alloral_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_alloral_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_alloral_used--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_alloral_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_alloral_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_bdq_tx--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_bdq_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_bdq_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_bdq_used--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_bdq_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_bdq_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_dlm_tx--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_dlm_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_dlm_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdrxdr_dlm_used--by--country--year",
+            "path": "ddf--datapoints--mdrxdr_dlm_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdrxdr_dlm_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_clindx--by--country--year",
+            "path": "ddf--datapoints--new_clindx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_clindx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep--by--country--year",
+            "path": "ddf--datapoints--new_ep--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f014--by--country--year",
+            "path": "ddf--datapoints--new_ep_f014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f04--by--country--year",
+            "path": "ddf--datapoints--new_ep_f04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f1524--by--country--year",
+            "path": "ddf--datapoints--new_ep_f1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f15plus--by--country--year",
+            "path": "ddf--datapoints--new_ep_f15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f2534--by--country--year",
+            "path": "ddf--datapoints--new_ep_f2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f3544--by--country--year",
+            "path": "ddf--datapoints--new_ep_f3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f4554--by--country--year",
+            "path": "ddf--datapoints--new_ep_f4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f514--by--country--year",
+            "path": "ddf--datapoints--new_ep_f514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f5564--by--country--year",
+            "path": "ddf--datapoints--new_ep_f5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_f65--by--country--year",
+            "path": "ddf--datapoints--new_ep_f65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_f65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_fu--by--country--year",
+            "path": "ddf--datapoints--new_ep_fu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_fu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m014--by--country--year",
+            "path": "ddf--datapoints--new_ep_m014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m04--by--country--year",
+            "path": "ddf--datapoints--new_ep_m04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m1524--by--country--year",
+            "path": "ddf--datapoints--new_ep_m1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m15plus--by--country--year",
+            "path": "ddf--datapoints--new_ep_m15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m2534--by--country--year",
+            "path": "ddf--datapoints--new_ep_m2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m3544--by--country--year",
+            "path": "ddf--datapoints--new_ep_m3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m4554--by--country--year",
+            "path": "ddf--datapoints--new_ep_m4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m514--by--country--year",
+            "path": "ddf--datapoints--new_ep_m514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m5564--by--country--year",
+            "path": "ddf--datapoints--new_ep_m5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_m65--by--country--year",
+            "path": "ddf--datapoints--new_ep_m65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_m65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_mu--by--country--year",
+            "path": "ddf--datapoints--new_ep_mu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_mu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_sexunk014--by--country--year",
+            "path": "ddf--datapoints--new_ep_sexunk014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_sexunk014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_sexunk04--by--country--year",
+            "path": "ddf--datapoints--new_ep_sexunk04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_sexunk04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_sexunk15plus--by--country--year",
+            "path": "ddf--datapoints--new_ep_sexunk15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_sexunk15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_sexunk514--by--country--year",
+            "path": "ddf--datapoints--new_ep_sexunk514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_sexunk514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_ep_sexunkageunk--by--country--year",
+            "path": "ddf--datapoints--new_ep_sexunkageunk--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_ep_sexunkageunk"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_labconf--by--country--year",
+            "path": "ddf--datapoints--new_labconf--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_labconf"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_oth--by--country--year",
+            "path": "ddf--datapoints--new_oth--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_oth"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn--by--country--year",
+            "path": "ddf--datapoints--new_sn--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f014--by--country--year",
+            "path": "ddf--datapoints--new_sn_f014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f04--by--country--year",
+            "path": "ddf--datapoints--new_sn_f04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f1524--by--country--year",
+            "path": "ddf--datapoints--new_sn_f1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f15plus--by--country--year",
+            "path": "ddf--datapoints--new_sn_f15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f2534--by--country--year",
+            "path": "ddf--datapoints--new_sn_f2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f3544--by--country--year",
+            "path": "ddf--datapoints--new_sn_f3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f4554--by--country--year",
+            "path": "ddf--datapoints--new_sn_f4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f514--by--country--year",
+            "path": "ddf--datapoints--new_sn_f514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f5564--by--country--year",
+            "path": "ddf--datapoints--new_sn_f5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_f65--by--country--year",
+            "path": "ddf--datapoints--new_sn_f65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_f65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_fu--by--country--year",
+            "path": "ddf--datapoints--new_sn_fu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_fu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m014--by--country--year",
+            "path": "ddf--datapoints--new_sn_m014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m04--by--country--year",
+            "path": "ddf--datapoints--new_sn_m04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m1524--by--country--year",
+            "path": "ddf--datapoints--new_sn_m1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m15plus--by--country--year",
+            "path": "ddf--datapoints--new_sn_m15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m2534--by--country--year",
+            "path": "ddf--datapoints--new_sn_m2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m3544--by--country--year",
+            "path": "ddf--datapoints--new_sn_m3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m4554--by--country--year",
+            "path": "ddf--datapoints--new_sn_m4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m514--by--country--year",
+            "path": "ddf--datapoints--new_sn_m514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m5564--by--country--year",
+            "path": "ddf--datapoints--new_sn_m5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_m65--by--country--year",
+            "path": "ddf--datapoints--new_sn_m65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_m65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_mu--by--country--year",
+            "path": "ddf--datapoints--new_sn_mu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_mu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_sexunk014--by--country--year",
+            "path": "ddf--datapoints--new_sn_sexunk014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_sexunk014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_sexunk04--by--country--year",
+            "path": "ddf--datapoints--new_sn_sexunk04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_sexunk04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_sexunk15plus--by--country--year",
+            "path": "ddf--datapoints--new_sn_sexunk15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_sexunk15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sn_sexunk514--by--country--year",
+            "path": "ddf--datapoints--new_sn_sexunk514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sn_sexunk514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp--by--country--year",
+            "path": "ddf--datapoints--new_sp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f014--by--country--year",
+            "path": "ddf--datapoints--new_sp_f014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f04--by--country--year",
+            "path": "ddf--datapoints--new_sp_f04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f1524--by--country--year",
+            "path": "ddf--datapoints--new_sp_f1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f2534--by--country--year",
+            "path": "ddf--datapoints--new_sp_f2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f3544--by--country--year",
+            "path": "ddf--datapoints--new_sp_f3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f4554--by--country--year",
+            "path": "ddf--datapoints--new_sp_f4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f514--by--country--year",
+            "path": "ddf--datapoints--new_sp_f514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f5564--by--country--year",
+            "path": "ddf--datapoints--new_sp_f5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_f65--by--country--year",
+            "path": "ddf--datapoints--new_sp_f65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_f65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_fu--by--country--year",
+            "path": "ddf--datapoints--new_sp_fu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_fu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m014--by--country--year",
+            "path": "ddf--datapoints--new_sp_m014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m04--by--country--year",
+            "path": "ddf--datapoints--new_sp_m04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m1524--by--country--year",
+            "path": "ddf--datapoints--new_sp_m1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m2534--by--country--year",
+            "path": "ddf--datapoints--new_sp_m2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m3544--by--country--year",
+            "path": "ddf--datapoints--new_sp_m3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m4554--by--country--year",
+            "path": "ddf--datapoints--new_sp_m4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m514--by--country--year",
+            "path": "ddf--datapoints--new_sp_m514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m5564--by--country--year",
+            "path": "ddf--datapoints--new_sp_m5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_m65--by--country--year",
+            "path": "ddf--datapoints--new_sp_m65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_m65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_sp_mu--by--country--year",
+            "path": "ddf--datapoints--new_sp_mu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_sp_mu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_su--by--country--year",
+            "path": "ddf--datapoints--new_su--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "new_su"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--newinc_con04_prevtx--by--country--year",
             "path": "ddf--datapoints--newinc_con04_prevtx--by--country--year.csv",
             "schema": {
@@ -1615,6 +3925,888 @@
                     },
                     {
                         "name": "newinc_con04_prevtx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newinc_rdx--by--country--year",
+            "path": "ddf--datapoints--newinc_rdx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newinc_rdx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_art--by--country--year",
+            "path": "ddf--datapoints--newrel_art--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_art"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f014--by--country--year",
+            "path": "ddf--datapoints--newrel_f014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f04--by--country--year",
+            "path": "ddf--datapoints--newrel_f04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f1014--by--country--year",
+            "path": "ddf--datapoints--newrel_f1014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f1014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f1519--by--country--year",
+            "path": "ddf--datapoints--newrel_f1519--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f1519"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f1524--by--country--year",
+            "path": "ddf--datapoints--newrel_f1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f15plus--by--country--year",
+            "path": "ddf--datapoints--newrel_f15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f2024--by--country--year",
+            "path": "ddf--datapoints--newrel_f2024--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f2024"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f2534--by--country--year",
+            "path": "ddf--datapoints--newrel_f2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f3544--by--country--year",
+            "path": "ddf--datapoints--newrel_f3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f4554--by--country--year",
+            "path": "ddf--datapoints--newrel_f4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f514--by--country--year",
+            "path": "ddf--datapoints--newrel_f514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f5564--by--country--year",
+            "path": "ddf--datapoints--newrel_f5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f59--by--country--year",
+            "path": "ddf--datapoints--newrel_f59--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f59"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_f65--by--country--year",
+            "path": "ddf--datapoints--newrel_f65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_f65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_fu--by--country--year",
+            "path": "ddf--datapoints--newrel_fu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_fu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_hivpos--by--country--year",
+            "path": "ddf--datapoints--newrel_hivpos--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_hivpos"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_hivtest--by--country--year",
+            "path": "ddf--datapoints--newrel_hivtest--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_hivtest"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m014--by--country--year",
+            "path": "ddf--datapoints--newrel_m014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m04--by--country--year",
+            "path": "ddf--datapoints--newrel_m04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m1014--by--country--year",
+            "path": "ddf--datapoints--newrel_m1014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m1014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m1519--by--country--year",
+            "path": "ddf--datapoints--newrel_m1519--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m1519"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m1524--by--country--year",
+            "path": "ddf--datapoints--newrel_m1524--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m1524"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m15plus--by--country--year",
+            "path": "ddf--datapoints--newrel_m15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m2024--by--country--year",
+            "path": "ddf--datapoints--newrel_m2024--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m2024"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m2534--by--country--year",
+            "path": "ddf--datapoints--newrel_m2534--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m2534"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m3544--by--country--year",
+            "path": "ddf--datapoints--newrel_m3544--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m3544"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m4554--by--country--year",
+            "path": "ddf--datapoints--newrel_m4554--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m4554"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m514--by--country--year",
+            "path": "ddf--datapoints--newrel_m514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m5564--by--country--year",
+            "path": "ddf--datapoints--newrel_m5564--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m5564"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m59--by--country--year",
+            "path": "ddf--datapoints--newrel_m59--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m59"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_m65--by--country--year",
+            "path": "ddf--datapoints--newrel_m65--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_m65"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_mu--by--country--year",
+            "path": "ddf--datapoints--newrel_mu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_mu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_sexunk014--by--country--year",
+            "path": "ddf--datapoints--newrel_sexunk014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_sexunk014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_sexunk04--by--country--year",
+            "path": "ddf--datapoints--newrel_sexunk04--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_sexunk04"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_sexunk15plus--by--country--year",
+            "path": "ddf--datapoints--newrel_sexunk15plus--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_sexunk15plus"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_sexunk514--by--country--year",
+            "path": "ddf--datapoints--newrel_sexunk514--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_sexunk514"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_sexunkageunk--by--country--year",
+            "path": "ddf--datapoints--newrel_sexunkageunk--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_sexunkageunk"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_tbhiv_flg--by--country--year",
+            "path": "ddf--datapoints--newrel_tbhiv_flg--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_tbhiv_flg"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newret_oth--by--country--year",
+            "path": "ddf--datapoints--newret_oth--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newret_oth"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--notif_foreign--by--country--year",
+            "path": "ddf--datapoints--notif_foreign--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "notif_foreign"
                     }
                 ],
                 "primaryKey": [
@@ -1678,6 +4870,363 @@
                     },
                     {
                         "name": "ptsurvey_newinc_con04_prevtx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdst_new--by--country--year",
+            "path": "ddf--datapoints--rdst_new--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdst_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdst_ret--by--country--year",
+            "path": "ddf--datapoints--rdst_ret--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdst_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdst_unk--by--country--year",
+            "path": "ddf--datapoints--rdst_unk--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdst_unk"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdx_data_available--by--country--year",
+            "path": "ddf--datapoints--rdx_data_available--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdx_data_available"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdxsurvey_newinc--by--country--year",
+            "path": "ddf--datapoints--rdxsurvey_newinc--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdxsurvey_newinc"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rdxsurvey_newinc_rdx--by--country--year",
+            "path": "ddf--datapoints--rdxsurvey_newinc_rdx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rdxsurvey_newinc_rdx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rel_in_agesex_flg--by--country--year",
+            "path": "ddf--datapoints--rel_in_agesex_flg--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rel_in_agesex_flg"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_nrel--by--country--year",
+            "path": "ddf--datapoints--ret_nrel--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_nrel"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_oth--by--country--year",
+            "path": "ddf--datapoints--ret_oth--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_oth"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_rel--by--country--year",
+            "path": "ddf--datapoints--ret_rel--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_rel"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_rel_clindx--by--country--year",
+            "path": "ddf--datapoints--ret_rel_clindx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_rel_clindx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_rel_ep--by--country--year",
+            "path": "ddf--datapoints--ret_rel_ep--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_rel_ep"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_rel_labconf--by--country--year",
+            "path": "ddf--datapoints--ret_rel_labconf--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_rel_labconf"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_tad--by--country--year",
+            "path": "ddf--datapoints--ret_tad--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_tad"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ret_taf--by--country--year",
+            "path": "ddf--datapoints--ret_taf--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ret_taf"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rr_sldst--by--country--year",
+            "path": "ddf--datapoints--rr_sldst--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rr_sldst"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--rrmdr_014_tx--by--country--year",
+            "path": "ddf--datapoints--rrmdr_014_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "rrmdr_014_tx"
                     }
                 ],
                 "primaryKey": [
@@ -1825,6 +5374,48 @@
                     },
                     {
                         "name": "source_rr_ret"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--unconf_mdr_tx--by--country--year",
+            "path": "ddf--datapoints--unconf_mdr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "unconf_mdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--unconf_rrmdr_tx--by--country--year",
+            "path": "ddf--datapoints--unconf_rrmdr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "unconf_rrmdr_tx"
                     }
                 ],
                 "primaryKey": [
@@ -1995,6 +5586,26 @@
                     "country",
                     "year"
                 ],
+                "value": "agegroup_option",
+                "resources": [
+                    "ddf--datapoints--agegroup_option--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "all_conf_xdr",
+                "resources": [
+                    "ddf--datapoints--all_conf_xdr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "c_cdr",
                 "resources": [
                     "ddf--datapoints--c_cdr--by--country--year"
@@ -2018,6 +5629,16 @@
                 "value": "c_cdr_lo",
                 "resources": [
                     "ddf--datapoints--c_cdr_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "c_newinc",
+                "resources": [
+                    "ddf--datapoints--c_newinc--by--country--year"
                 ]
             },
             {
@@ -2088,6 +5709,56 @@
                 "value": "cfr_pct_lo",
                 "resources": [
                     "ddf--datapoints--cfr_pct_lo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_mdr",
+                "resources": [
+                    "ddf--datapoints--conf_mdr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_mdr_tx",
+                "resources": [
+                    "ddf--datapoints--conf_mdr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_rrmdr",
+                "resources": [
+                    "ddf--datapoints--conf_rrmdr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_rrmdr_tx",
+                "resources": [
+                    "ddf--datapoints--conf_rrmdr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_xdr_tx",
+                "resources": [
+                    "ddf--datapoints--conf_xdr_tx--by--country--year"
                 ]
             },
             {
@@ -2730,9 +6401,1449 @@
                     "country",
                     "year"
                 ],
+                "value": "hiv_art",
+                "resources": [
+                    "ddf--datapoints--hiv_art--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_cpt",
+                "resources": [
+                    "ddf--datapoints--hiv_cpt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_ipt",
+                "resources": [
+                    "ddf--datapoints--hiv_ipt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_ipt_reg_all",
+                "resources": [
+                    "ddf--datapoints--hiv_ipt_reg_all--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_reg",
+                "resources": [
+                    "ddf--datapoints--hiv_reg--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_reg_all",
+                "resources": [
+                    "ddf--datapoints--hiv_reg_all--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_reg_new",
+                "resources": [
+                    "ddf--datapoints--hiv_reg_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_reg_new2",
+                "resources": [
+                    "ddf--datapoints--hiv_reg_new2--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_tbdetect",
+                "resources": [
+                    "ddf--datapoints--hiv_tbdetect--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_tbscr",
+                "resources": [
+                    "ddf--datapoints--hiv_tbscr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hivtest",
+                "resources": [
+                    "ddf--datapoints--hivtest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hivtest_pos",
+                "resources": [
+                    "ddf--datapoints--hivtest_pos--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_shortreg_tx",
+                "resources": [
+                    "ddf--datapoints--mdr_shortreg_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_shortreg_used",
+                "resources": [
+                    "ddf--datapoints--mdr_shortreg_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_tx_adsm",
+                "resources": [
+                    "ddf--datapoints--mdr_tx_adsm--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_tx_adverse_events",
+                "resources": [
+                    "ddf--datapoints--mdr_tx_adverse_events--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_alloral_tx",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_alloral_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_alloral_used",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_alloral_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_bdq_tx",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_bdq_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_bdq_used",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_bdq_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_dlm_tx",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_dlm_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdrxdr_dlm_used",
+                "resources": [
+                    "ddf--datapoints--mdrxdr_dlm_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_clindx",
+                "resources": [
+                    "ddf--datapoints--new_clindx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep",
+                "resources": [
+                    "ddf--datapoints--new_ep--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f014",
+                "resources": [
+                    "ddf--datapoints--new_ep_f014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f04",
+                "resources": [
+                    "ddf--datapoints--new_ep_f04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f1524",
+                "resources": [
+                    "ddf--datapoints--new_ep_f1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f15plus",
+                "resources": [
+                    "ddf--datapoints--new_ep_f15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f2534",
+                "resources": [
+                    "ddf--datapoints--new_ep_f2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f3544",
+                "resources": [
+                    "ddf--datapoints--new_ep_f3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f4554",
+                "resources": [
+                    "ddf--datapoints--new_ep_f4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f514",
+                "resources": [
+                    "ddf--datapoints--new_ep_f514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f5564",
+                "resources": [
+                    "ddf--datapoints--new_ep_f5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_f65",
+                "resources": [
+                    "ddf--datapoints--new_ep_f65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_fu",
+                "resources": [
+                    "ddf--datapoints--new_ep_fu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m014",
+                "resources": [
+                    "ddf--datapoints--new_ep_m014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m04",
+                "resources": [
+                    "ddf--datapoints--new_ep_m04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m1524",
+                "resources": [
+                    "ddf--datapoints--new_ep_m1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m15plus",
+                "resources": [
+                    "ddf--datapoints--new_ep_m15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m2534",
+                "resources": [
+                    "ddf--datapoints--new_ep_m2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m3544",
+                "resources": [
+                    "ddf--datapoints--new_ep_m3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m4554",
+                "resources": [
+                    "ddf--datapoints--new_ep_m4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m514",
+                "resources": [
+                    "ddf--datapoints--new_ep_m514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m5564",
+                "resources": [
+                    "ddf--datapoints--new_ep_m5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_m65",
+                "resources": [
+                    "ddf--datapoints--new_ep_m65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_mu",
+                "resources": [
+                    "ddf--datapoints--new_ep_mu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_sexunk014",
+                "resources": [
+                    "ddf--datapoints--new_ep_sexunk014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_sexunk04",
+                "resources": [
+                    "ddf--datapoints--new_ep_sexunk04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_sexunk15plus",
+                "resources": [
+                    "ddf--datapoints--new_ep_sexunk15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_sexunk514",
+                "resources": [
+                    "ddf--datapoints--new_ep_sexunk514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_ep_sexunkageunk",
+                "resources": [
+                    "ddf--datapoints--new_ep_sexunkageunk--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_labconf",
+                "resources": [
+                    "ddf--datapoints--new_labconf--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_oth",
+                "resources": [
+                    "ddf--datapoints--new_oth--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn",
+                "resources": [
+                    "ddf--datapoints--new_sn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f014",
+                "resources": [
+                    "ddf--datapoints--new_sn_f014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f04",
+                "resources": [
+                    "ddf--datapoints--new_sn_f04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f1524",
+                "resources": [
+                    "ddf--datapoints--new_sn_f1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f15plus",
+                "resources": [
+                    "ddf--datapoints--new_sn_f15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f2534",
+                "resources": [
+                    "ddf--datapoints--new_sn_f2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f3544",
+                "resources": [
+                    "ddf--datapoints--new_sn_f3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f4554",
+                "resources": [
+                    "ddf--datapoints--new_sn_f4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f514",
+                "resources": [
+                    "ddf--datapoints--new_sn_f514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f5564",
+                "resources": [
+                    "ddf--datapoints--new_sn_f5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_f65",
+                "resources": [
+                    "ddf--datapoints--new_sn_f65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_fu",
+                "resources": [
+                    "ddf--datapoints--new_sn_fu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m014",
+                "resources": [
+                    "ddf--datapoints--new_sn_m014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m04",
+                "resources": [
+                    "ddf--datapoints--new_sn_m04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m1524",
+                "resources": [
+                    "ddf--datapoints--new_sn_m1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m15plus",
+                "resources": [
+                    "ddf--datapoints--new_sn_m15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m2534",
+                "resources": [
+                    "ddf--datapoints--new_sn_m2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m3544",
+                "resources": [
+                    "ddf--datapoints--new_sn_m3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m4554",
+                "resources": [
+                    "ddf--datapoints--new_sn_m4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m514",
+                "resources": [
+                    "ddf--datapoints--new_sn_m514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m5564",
+                "resources": [
+                    "ddf--datapoints--new_sn_m5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_m65",
+                "resources": [
+                    "ddf--datapoints--new_sn_m65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_mu",
+                "resources": [
+                    "ddf--datapoints--new_sn_mu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_sexunk014",
+                "resources": [
+                    "ddf--datapoints--new_sn_sexunk014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_sexunk04",
+                "resources": [
+                    "ddf--datapoints--new_sn_sexunk04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_sexunk15plus",
+                "resources": [
+                    "ddf--datapoints--new_sn_sexunk15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sn_sexunk514",
+                "resources": [
+                    "ddf--datapoints--new_sn_sexunk514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp",
+                "resources": [
+                    "ddf--datapoints--new_sp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f014",
+                "resources": [
+                    "ddf--datapoints--new_sp_f014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f04",
+                "resources": [
+                    "ddf--datapoints--new_sp_f04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f1524",
+                "resources": [
+                    "ddf--datapoints--new_sp_f1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f2534",
+                "resources": [
+                    "ddf--datapoints--new_sp_f2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f3544",
+                "resources": [
+                    "ddf--datapoints--new_sp_f3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f4554",
+                "resources": [
+                    "ddf--datapoints--new_sp_f4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f514",
+                "resources": [
+                    "ddf--datapoints--new_sp_f514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f5564",
+                "resources": [
+                    "ddf--datapoints--new_sp_f5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_f65",
+                "resources": [
+                    "ddf--datapoints--new_sp_f65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_fu",
+                "resources": [
+                    "ddf--datapoints--new_sp_fu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m014",
+                "resources": [
+                    "ddf--datapoints--new_sp_m014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m04",
+                "resources": [
+                    "ddf--datapoints--new_sp_m04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m1524",
+                "resources": [
+                    "ddf--datapoints--new_sp_m1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m2534",
+                "resources": [
+                    "ddf--datapoints--new_sp_m2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m3544",
+                "resources": [
+                    "ddf--datapoints--new_sp_m3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m4554",
+                "resources": [
+                    "ddf--datapoints--new_sp_m4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m514",
+                "resources": [
+                    "ddf--datapoints--new_sp_m514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m5564",
+                "resources": [
+                    "ddf--datapoints--new_sp_m5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_m65",
+                "resources": [
+                    "ddf--datapoints--new_sp_m65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_sp_mu",
+                "resources": [
+                    "ddf--datapoints--new_sp_mu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "new_su",
+                "resources": [
+                    "ddf--datapoints--new_su--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "newinc_con04_prevtx",
                 "resources": [
                     "ddf--datapoints--newinc_con04_prevtx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newinc_rdx",
+                "resources": [
+                    "ddf--datapoints--newinc_rdx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_art",
+                "resources": [
+                    "ddf--datapoints--newrel_art--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f014",
+                "resources": [
+                    "ddf--datapoints--newrel_f014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f04",
+                "resources": [
+                    "ddf--datapoints--newrel_f04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f1014",
+                "resources": [
+                    "ddf--datapoints--newrel_f1014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f1519",
+                "resources": [
+                    "ddf--datapoints--newrel_f1519--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f1524",
+                "resources": [
+                    "ddf--datapoints--newrel_f1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f15plus",
+                "resources": [
+                    "ddf--datapoints--newrel_f15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f2024",
+                "resources": [
+                    "ddf--datapoints--newrel_f2024--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f2534",
+                "resources": [
+                    "ddf--datapoints--newrel_f2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f3544",
+                "resources": [
+                    "ddf--datapoints--newrel_f3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f4554",
+                "resources": [
+                    "ddf--datapoints--newrel_f4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f514",
+                "resources": [
+                    "ddf--datapoints--newrel_f514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f5564",
+                "resources": [
+                    "ddf--datapoints--newrel_f5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f59",
+                "resources": [
+                    "ddf--datapoints--newrel_f59--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_f65",
+                "resources": [
+                    "ddf--datapoints--newrel_f65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_fu",
+                "resources": [
+                    "ddf--datapoints--newrel_fu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_hivpos",
+                "resources": [
+                    "ddf--datapoints--newrel_hivpos--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_hivtest",
+                "resources": [
+                    "ddf--datapoints--newrel_hivtest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m014",
+                "resources": [
+                    "ddf--datapoints--newrel_m014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m04",
+                "resources": [
+                    "ddf--datapoints--newrel_m04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m1014",
+                "resources": [
+                    "ddf--datapoints--newrel_m1014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m1519",
+                "resources": [
+                    "ddf--datapoints--newrel_m1519--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m1524",
+                "resources": [
+                    "ddf--datapoints--newrel_m1524--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m15plus",
+                "resources": [
+                    "ddf--datapoints--newrel_m15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m2024",
+                "resources": [
+                    "ddf--datapoints--newrel_m2024--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m2534",
+                "resources": [
+                    "ddf--datapoints--newrel_m2534--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m3544",
+                "resources": [
+                    "ddf--datapoints--newrel_m3544--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m4554",
+                "resources": [
+                    "ddf--datapoints--newrel_m4554--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m514",
+                "resources": [
+                    "ddf--datapoints--newrel_m514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m5564",
+                "resources": [
+                    "ddf--datapoints--newrel_m5564--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m59",
+                "resources": [
+                    "ddf--datapoints--newrel_m59--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_m65",
+                "resources": [
+                    "ddf--datapoints--newrel_m65--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_mu",
+                "resources": [
+                    "ddf--datapoints--newrel_mu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_sexunk014",
+                "resources": [
+                    "ddf--datapoints--newrel_sexunk014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_sexunk04",
+                "resources": [
+                    "ddf--datapoints--newrel_sexunk04--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_sexunk15plus",
+                "resources": [
+                    "ddf--datapoints--newrel_sexunk15plus--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_sexunk514",
+                "resources": [
+                    "ddf--datapoints--newrel_sexunk514--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_sexunkageunk",
+                "resources": [
+                    "ddf--datapoints--newrel_sexunkageunk--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_tbhiv_flg",
+                "resources": [
+                    "ddf--datapoints--newrel_tbhiv_flg--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newret_oth",
+                "resources": [
+                    "ddf--datapoints--newret_oth--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "notif_foreign",
+                "resources": [
+                    "ddf--datapoints--notif_foreign--by--country--year"
                 ]
             },
             {
@@ -2763,6 +7874,176 @@
                 "value": "ptsurvey_newinc_con04_prevtx",
                 "resources": [
                     "ddf--datapoints--ptsurvey_newinc_con04_prevtx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdst_new",
+                "resources": [
+                    "ddf--datapoints--rdst_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdst_ret",
+                "resources": [
+                    "ddf--datapoints--rdst_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdst_unk",
+                "resources": [
+                    "ddf--datapoints--rdst_unk--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdx_data_available",
+                "resources": [
+                    "ddf--datapoints--rdx_data_available--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdxsurvey_newinc",
+                "resources": [
+                    "ddf--datapoints--rdxsurvey_newinc--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rdxsurvey_newinc_rdx",
+                "resources": [
+                    "ddf--datapoints--rdxsurvey_newinc_rdx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rel_in_agesex_flg",
+                "resources": [
+                    "ddf--datapoints--rel_in_agesex_flg--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_nrel",
+                "resources": [
+                    "ddf--datapoints--ret_nrel--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_oth",
+                "resources": [
+                    "ddf--datapoints--ret_oth--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_rel",
+                "resources": [
+                    "ddf--datapoints--ret_rel--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_rel_clindx",
+                "resources": [
+                    "ddf--datapoints--ret_rel_clindx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_rel_ep",
+                "resources": [
+                    "ddf--datapoints--ret_rel_ep--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_rel_labconf",
+                "resources": [
+                    "ddf--datapoints--ret_rel_labconf--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_tad",
+                "resources": [
+                    "ddf--datapoints--ret_tad--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ret_taf",
+                "resources": [
+                    "ddf--datapoints--ret_taf--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rr_sldst",
+                "resources": [
+                    "ddf--datapoints--rr_sldst--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "rrmdr_014_tx",
+                "resources": [
+                    "ddf--datapoints--rrmdr_014_tx--by--country--year"
                 ]
             },
             {
@@ -2833,6 +8114,26 @@
                 "value": "source_rr_ret",
                 "resources": [
                     "ddf--datapoints--source_rr_ret--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "unconf_mdr_tx",
+                "resources": [
+                    "ddf--datapoints--unconf_mdr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "unconf_rrmdr_tx",
+                "resources": [
+                    "ddf--datapoints--unconf_rrmdr_tx--by--country--year"
                 ]
             }
         ],
