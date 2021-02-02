@@ -8,6 +8,7 @@ mdr_source = '../source/MDR_RR_TB_burden_estimates.csv'
 ltbi_source = '../source/LTBI_estimates.csv'
 dic_source = '../source/TB_data_dictionary.csv'
 tb2_source = '../source/TB_burden_age_sex.csv'
+noti_source = '../source/TB_notifications.csv'
 
 ignore_cols = ['country', 'iso2', 'iso_numeric', 'measure', 'unit', 'g_whoregion']
 
@@ -41,6 +42,7 @@ def main():
     ltbi = pd.read_csv(ltbi_source)
     dic = pd.read_csv(dic_source)
     tb2 = pd.read_csv(tb2_source)
+    noti = pd.read_csv(noti_source)
 
     # datapoints
     print('generating datapoints...')
@@ -50,6 +52,7 @@ def main():
     tb_ = tb_.set_index(['iso3', 'year'])
     create_datapoints(tb_, ['country', 'year'])
 
+    # by age year risk factor
     cols = get_indicator_cols(tb2)
     tb2_ = tb2[cols].copy()
     tb2_['iso3'] = tb2_['iso3'].str.lower()
@@ -65,17 +68,26 @@ def main():
     tb2_2 = tb2_2.set_index(['iso3', 'year', 'age_group', 'risk_factor', 'sex'])
     create_datapoints(tb2_2, ['country', 'year', 'age_group', 'risk_factor', 'sex'])
 
+    # MDR/RR
     cols = get_indicator_cols(mdr)
     mdr_ = mdr[cols].copy()
     mdr_['iso3'] = mdr_['iso3'].str.lower()
     mdr_ = mdr_.set_index(['iso3', 'year'])
     create_datapoints(mdr_, ['country', 'year'])
 
+    # latent TB
     cols = get_indicator_cols(ltbi)
     ltbi_ = ltbi[cols].copy()
     ltbi_['iso3'] = ltbi_['iso3'].str.lower()
     ltbi_ = ltbi_.set_index(['iso3', 'year'])
     create_datapoints(ltbi_, ['country', 'year'])
+
+    # notifications
+    cols = get_indicator_cols(noti)
+    noti_ = noti[cols].copy()
+    noti_['iso3'] = noti_['iso3'].str.lower()
+    noti_ = noti_.set_index(['iso3', 'year'])
+    create_datapoints(noti_, ['country', 'year'])
 
     # concepts
     cdf = dic[['variable_name', 'definition']].copy()

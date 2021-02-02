@@ -13,7 +13,9 @@ files = [
     dict(filename='../source/LTBI_estimates.csv',
          url='https://extranet.who.int/tme/generateCSV.asp?ds=ltbi_estimates'),
     dict(filename='../source/TB_burden_age_sex.csv',
-         url='https://extranet.who.int/tme/generateCSV.asp?ds=estimates_age_sex')
+         url='https://extranet.who.int/tme/generateCSV.asp?ds=estimates_age_sex'),
+    dict(filename='../source/TB_notifications.csv',
+         url='https://extranet.who.int/tme/generateCSV.asp?ds=notifications')
 ]
 
 
