@@ -153,6 +153,7 @@ exp_tbhiv,Actual expenditure on collaborative TB/HIV activities (US Dollars),mea
 exp_tot,Total actual expenditure (US Dollars),measure
 exp_tpt,Actual expenditure on drugs for TB preventive treatment (US Dollars),measure
 free_dx_followup,"Does national policy indicate that TB diagnostic and follow-up tests provided through the national TB programme are free of charge or that fees can be fully reimbursed through health insurance, or both, for all people with signs or symptoms of TB?",measure
+g_whoregion,WHO region,measure
 hcfvisit_dstb,Typical number of visits to a health facility after diagnosis for patients starting first-line TB treatment,measure
 hcfvisit_mdr,Typical number of visits to a health facility after diagnosis for patients starting MDR-TB/XDR-TB treatment,measure
 hcw_tb_infected,Number of health-care workers who had TB,measure
@@ -438,6 +439,8 @@ rdxsurvey_newinc_rdx,(if rdx_data_available=61) Among the cases reported in rdxs
 rel_in_agesex_flg,Are all relapse cases included with new cases in the disaggregations by age and sex?,measure
 rel_with_new_flg,Are outcomes of relapse cases included in the newrel outcome variables?,measure
 rep_meth,Method of confirmation used to report treatment outcomes of pulmonary cases  (not used after 2011),measure
+report_coverage,Indicates whether or not provisional data include data from all reporting units in the country,measure
+report_frequency,Frequency at which provisional data are reported to WHO,measure
 ret_cmplt,Outcomes for re-treatment cases: completed  (not used after 2011),measure
 ret_coh,Outcomes for re-treatment cases: cohort size (not used after 2011),measure
 ret_cur,Outcomes for re-treatment cases: cured (not used after 2011),measure
