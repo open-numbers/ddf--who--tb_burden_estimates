@@ -11,6 +11,7 @@ tb2_source = '../source/TB_burden_age_sex.csv'
 noti_source = '../source/TB_notifications.csv'
 
 ignore_cols = ['country', 'iso2', 'iso_numeric', 'measure', 'unit', 'g_whoregion']
+ingore_data_dictionary = ["m_01; m_02; etc.", "q_1; q_2; etc."]
 
 
 def get_indicator_cols(df, other_cols=ignore_cols):
@@ -41,6 +42,7 @@ def main():
     mdr = pd.read_csv(mdr_source, na_values=[''], keep_default_na=False)
     ltbi = pd.read_csv(ltbi_source, na_values=[''], keep_default_na=False)
     dic = pd.read_csv(dic_source, na_values=[''], keep_default_na=False)
+    dic = dic.loc[~dic['variable_name'].isin(ingore_data_dictionary)]
     tb2 = pd.read_csv(tb2_source, na_values=[''], keep_default_na=False)
     noti = pd.read_csv(noti_source, na_values=[''], keep_default_na=False)
 
