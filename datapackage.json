@@ -8,7 +8,7 @@
     "description": "WHO TB burden estimates",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2021-10-03T01:40:11.133287+00:00",
+    "created": "2021-10-17T01:50:44.139790+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -337,6 +337,90 @@
                     },
                     {
                         "name": "conf_mdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rr_fqr--by--country--year",
+            "path": "ddf--datapoints--conf_rr_fqr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rr_fqr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rr_fqr_tx--by--country--year",
+            "path": "ddf--datapoints--conf_rr_fqr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rr_fqr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rr_nfqr--by--country--year",
+            "path": "ddf--datapoints--conf_rr_nfqr--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rr_nfqr"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--conf_rr_nfqr_tx--by--country--year",
+            "path": "ddf--datapoints--conf_rr_nfqr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "conf_rr_nfqr_tx"
                     }
                 ],
                 "primaryKey": [
@@ -742,69 +826,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_inc_rr_num--by--country--year",
-            "path": "ddf--datapoints--e_inc_rr_num--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_inc_rr_num"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_inc_rr_num_hi--by--country--year",
-            "path": "ddf--datapoints--e_inc_rr_num_hi--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_inc_rr_num_hi"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_inc_rr_num_lo--by--country--year",
-            "path": "ddf--datapoints--e_inc_rr_num_lo--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_inc_rr_num_lo"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--e_inc_tbhiv_100k--by--country--year",
             "path": "ddf--datapoints--e_inc_tbhiv_100k--by--country--year.csv",
             "schema": {
@@ -922,69 +943,6 @@
                     },
                     {
                         "name": "e_inc_tbhiv_num_lo"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_mdr_pct_rr--by--country--year",
-            "path": "ddf--datapoints--e_mdr_pct_rr--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_mdr_pct_rr"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_mdr_pct_rr_new--by--country--year",
-            "path": "ddf--datapoints--e_mdr_pct_rr_new--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_mdr_pct_rr_new"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year",
-            "path": "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_mdr_pct_rr_ret"
                     }
                 ],
                 "primaryKey": [
@@ -1519,195 +1477,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_in_notified_labconf_pulm"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_in_notified_labconf_pulm_hi"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year",
-            "path": "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_in_notified_labconf_pulm_lo"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_new--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_new--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_new"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_new_hi--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_new_hi--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_new_hi"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_new_lo--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_new_lo--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_new_lo"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_ret--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_ret--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_ret"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_ret_hi--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_ret_hi--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_ret_hi"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_rr_pct_ret_lo--by--country--year",
-            "path": "ddf--datapoints--e_rr_pct_ret_lo--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_rr_pct_ret_lo"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--e_tbhiv_prct--by--country--year",
             "path": "ddf--datapoints--e_tbhiv_prct--by--country--year.csv",
             "schema": {
@@ -1771,6 +1540,90 @@
             }
         },
         {
+            "name": "ddf--datapoints--hiv_all--by--country--year",
+            "path": "ddf--datapoints--hiv_all--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_all"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_all_tpt--by--country--year",
+            "path": "ddf--datapoints--hiv_all_tpt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_all_tpt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_all_tpt_completed--by--country--year",
+            "path": "ddf--datapoints--hiv_all_tpt_completed--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_all_tpt_completed"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_all_tpt_started--by--country--year",
+            "path": "ddf--datapoints--hiv_all_tpt_started--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_all_tpt_started"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--hiv_art--by--country--year",
             "path": "ddf--datapoints--hiv_art--by--country--year.csv",
             "schema": {
@@ -1813,6 +1666,90 @@
             }
         },
         {
+            "name": "ddf--datapoints--hiv_elig_all--by--country--year",
+            "path": "ddf--datapoints--hiv_elig_all--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_elig_all"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_elig_all_tpt--by--country--year",
+            "path": "ddf--datapoints--hiv_elig_all_tpt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_elig_all_tpt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_elig_new--by--country--year",
+            "path": "ddf--datapoints--hiv_elig_new--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_elig_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_elig_new_tpt--by--country--year",
+            "path": "ddf--datapoints--hiv_elig_new_tpt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_elig_new_tpt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--hiv_ipt--by--country--year",
             "path": "ddf--datapoints--hiv_ipt--by--country--year.csv",
             "schema": {
@@ -1846,6 +1783,48 @@
                     },
                     {
                         "name": "hiv_ipt_reg_all"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_new--by--country--year",
+            "path": "ddf--datapoints--hiv_new--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_new"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hiv_new_tpt--by--country--year",
+            "path": "ddf--datapoints--hiv_new_tpt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hiv_new_tpt"
                     }
                 ],
                 "primaryKey": [
@@ -2014,6 +1993,48 @@
                     },
                     {
                         "name": "hivtest_pos"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_alloral_short_tx--by--country--year",
+            "path": "ddf--datapoints--mdr_alloral_short_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_alloral_short_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mdr_alloral_short_used--by--country--year",
+            "path": "ddf--datapoints--mdr_alloral_short_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mdr_alloral_short_used"
                     }
                 ],
                 "primaryKey": [
@@ -3976,6 +3997,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--newrel_art_014--by--country--year",
+            "path": "ddf--datapoints--newrel_art_014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_art_014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--newrel_f014--by--country--year",
             "path": "ddf--datapoints--newrel_f014--by--country--year.csv",
             "schema": {
@@ -4312,6 +4354,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--newrel_hivpos_014--by--country--year",
+            "path": "ddf--datapoints--newrel_hivpos_014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_hivpos_014"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--newrel_hivtest--by--country--year",
             "path": "ddf--datapoints--newrel_hivtest--by--country--year.csv",
             "schema": {
@@ -4324,6 +4387,27 @@
                     },
                     {
                         "name": "newrel_hivtest"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--newrel_hivtest_014--by--country--year",
+            "path": "ddf--datapoints--newrel_hivtest_014--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "newrel_hivtest_014"
                     }
                 ],
                 "primaryKey": [
@@ -5236,90 +5320,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--source_drs_coverage_new--by--country--year",
-            "path": "ddf--datapoints--source_drs_coverage_new--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "source_drs_coverage_new"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--source_drs_coverage_ret--by--country--year",
-            "path": "ddf--datapoints--source_drs_coverage_ret--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "source_drs_coverage_ret"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--source_drs_year_new--by--country--year",
-            "path": "ddf--datapoints--source_drs_year_new--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "source_drs_year_new"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--source_drs_year_ret--by--country--year",
-            "path": "ddf--datapoints--source_drs_year_ret--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "source_drs_year_ret"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--source_hh--by--country--year",
             "path": "ddf--datapoints--source_hh--by--country--year.csv",
             "schema": {
@@ -5341,8 +5341,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--source_rr_new--by--country--year",
-            "path": "ddf--datapoints--source_rr_new--by--country--year.csv",
+            "name": "ddf--datapoints--tbhiv_014_flg--by--country--year",
+            "path": "ddf--datapoints--tbhiv_014_flg--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -5352,28 +5352,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "source_rr_new"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--source_rr_ret--by--country--year",
-            "path": "ddf--datapoints--source_rr_ret--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "source_rr_ret"
+                        "name": "tbhiv_014_flg"
                     }
                 ],
                 "primaryKey": [
@@ -5395,6 +5374,27 @@
                     },
                     {
                         "name": "unconf_mdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--unconf_rr_nfqr_tx--by--country--year",
+            "path": "ddf--datapoints--unconf_rr_nfqr_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "unconf_rr_nfqr_tx"
                     }
                 ],
                 "primaryKey": [
@@ -5736,6 +5736,46 @@
                     "country",
                     "year"
                 ],
+                "value": "conf_rr_fqr",
+                "resources": [
+                    "ddf--datapoints--conf_rr_fqr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_rr_fqr_tx",
+                "resources": [
+                    "ddf--datapoints--conf_rr_fqr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_rr_nfqr",
+                "resources": [
+                    "ddf--datapoints--conf_rr_nfqr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conf_rr_nfqr_tx",
+                "resources": [
+                    "ddf--datapoints--conf_rr_nfqr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "conf_rrmdr",
                 "resources": [
                     "ddf--datapoints--conf_rrmdr--by--country--year"
@@ -5911,36 +5951,6 @@
                     "country",
                     "year"
                 ],
-                "value": "e_inc_rr_num",
-                "resources": [
-                    "ddf--datapoints--e_inc_rr_num--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_inc_rr_num_hi",
-                "resources": [
-                    "ddf--datapoints--e_inc_rr_num_hi--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_inc_rr_num_lo",
-                "resources": [
-                    "ddf--datapoints--e_inc_rr_num_lo--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
                 "value": "e_inc_tbhiv_100k",
                 "resources": [
                     "ddf--datapoints--e_inc_tbhiv_100k--by--country--year"
@@ -5994,36 +6004,6 @@
                 "value": "e_inc_tbhiv_num_lo",
                 "resources": [
                     "ddf--datapoints--e_inc_tbhiv_num_lo--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_mdr_pct_rr",
-                "resources": [
-                    "ddf--datapoints--e_mdr_pct_rr--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_mdr_pct_rr_new",
-                "resources": [
-                    "ddf--datapoints--e_mdr_pct_rr_new--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_mdr_pct_rr_ret",
-                "resources": [
-                    "ddf--datapoints--e_mdr_pct_rr_ret--by--country--year"
                 ]
             },
             {
@@ -6281,96 +6261,6 @@
                     "country",
                     "year"
                 ],
-                "value": "e_rr_in_notified_labconf_pulm",
-                "resources": [
-                    "ddf--datapoints--e_rr_in_notified_labconf_pulm--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_in_notified_labconf_pulm_hi",
-                "resources": [
-                    "ddf--datapoints--e_rr_in_notified_labconf_pulm_hi--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_in_notified_labconf_pulm_lo",
-                "resources": [
-                    "ddf--datapoints--e_rr_in_notified_labconf_pulm_lo--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_new",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_new--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_new_hi",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_new_hi--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_new_lo",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_new_lo--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_ret",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_ret--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_ret_hi",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_ret_hi--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_rr_pct_ret_lo",
-                "resources": [
-                    "ddf--datapoints--e_rr_pct_ret_lo--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
                 "value": "e_tbhiv_prct",
                 "resources": [
                     "ddf--datapoints--e_tbhiv_prct--by--country--year"
@@ -6401,6 +6291,46 @@
                     "country",
                     "year"
                 ],
+                "value": "hiv_all",
+                "resources": [
+                    "ddf--datapoints--hiv_all--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_all_tpt",
+                "resources": [
+                    "ddf--datapoints--hiv_all_tpt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_all_tpt_completed",
+                "resources": [
+                    "ddf--datapoints--hiv_all_tpt_completed--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_all_tpt_started",
+                "resources": [
+                    "ddf--datapoints--hiv_all_tpt_started--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "hiv_art",
                 "resources": [
                     "ddf--datapoints--hiv_art--by--country--year"
@@ -6421,6 +6351,46 @@
                     "country",
                     "year"
                 ],
+                "value": "hiv_elig_all",
+                "resources": [
+                    "ddf--datapoints--hiv_elig_all--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_elig_all_tpt",
+                "resources": [
+                    "ddf--datapoints--hiv_elig_all_tpt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_elig_new",
+                "resources": [
+                    "ddf--datapoints--hiv_elig_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_elig_new_tpt",
+                "resources": [
+                    "ddf--datapoints--hiv_elig_new_tpt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "hiv_ipt",
                 "resources": [
                     "ddf--datapoints--hiv_ipt--by--country--year"
@@ -6434,6 +6404,26 @@
                 "value": "hiv_ipt_reg_all",
                 "resources": [
                     "ddf--datapoints--hiv_ipt_reg_all--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_new",
+                "resources": [
+                    "ddf--datapoints--hiv_new--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hiv_new_tpt",
+                "resources": [
+                    "ddf--datapoints--hiv_new_tpt--by--country--year"
                 ]
             },
             {
@@ -6514,6 +6504,26 @@
                 "value": "hivtest_pos",
                 "resources": [
                     "ddf--datapoints--hivtest_pos--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_alloral_short_tx",
+                "resources": [
+                    "ddf--datapoints--mdr_alloral_short_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mdr_alloral_short_used",
+                "resources": [
+                    "ddf--datapoints--mdr_alloral_short_used--by--country--year"
                 ]
             },
             {
@@ -7451,6 +7461,16 @@
                     "country",
                     "year"
                 ],
+                "value": "newrel_art_014",
+                "resources": [
+                    "ddf--datapoints--newrel_art_014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "newrel_f014",
                 "resources": [
                     "ddf--datapoints--newrel_f014--by--country--year"
@@ -7611,9 +7631,29 @@
                     "country",
                     "year"
                 ],
+                "value": "newrel_hivpos_014",
+                "resources": [
+                    "ddf--datapoints--newrel_hivpos_014--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "newrel_hivtest",
                 "resources": [
                     "ddf--datapoints--newrel_hivtest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "newrel_hivtest_014",
+                "resources": [
+                    "ddf--datapoints--newrel_hivtest_014--by--country--year"
                 ]
             },
             {
@@ -8051,46 +8091,6 @@
                     "country",
                     "year"
                 ],
-                "value": "source_drs_coverage_new",
-                "resources": [
-                    "ddf--datapoints--source_drs_coverage_new--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "source_drs_coverage_ret",
-                "resources": [
-                    "ddf--datapoints--source_drs_coverage_ret--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "source_drs_year_new",
-                "resources": [
-                    "ddf--datapoints--source_drs_year_new--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "source_drs_year_ret",
-                "resources": [
-                    "ddf--datapoints--source_drs_year_ret--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
                 "value": "source_hh",
                 "resources": [
                     "ddf--datapoints--source_hh--by--country--year"
@@ -8101,19 +8101,9 @@
                     "country",
                     "year"
                 ],
-                "value": "source_rr_new",
+                "value": "tbhiv_014_flg",
                 "resources": [
-                    "ddf--datapoints--source_rr_new--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "source_rr_ret",
-                "resources": [
-                    "ddf--datapoints--source_rr_ret--by--country--year"
+                    "ddf--datapoints--tbhiv_014_flg--by--country--year"
                 ]
             },
             {
@@ -8124,6 +8114,16 @@
                 "value": "unconf_mdr_tx",
                 "resources": [
                     "ddf--datapoints--unconf_mdr_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "unconf_rr_nfqr_tx",
+                "resources": [
+                    "ddf--datapoints--unconf_rr_nfqr_tx--by--country--year"
                 ]
             },
             {
