@@ -8,7 +8,7 @@
     "description": "WHO TB burden estimates",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-07-03T01:05:11.152942+00:00",
+    "created": "2024-08-08T07:14:06.241081+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -27,7 +27,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -5436,7 +5438,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "age_group"
+                "primaryKey": [
+                    "age_group"
+                ]
             }
         },
         {
@@ -5460,7 +5464,9 @@
                         "name": "iso_numeric"
                     }
                 ],
-                "primaryKey": "country"
+                "primaryKey": [
+                    "country"
+                ]
             }
         },
         {
@@ -5475,7 +5481,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "risk_factor"
+                "primaryKey": [
+                    "risk_factor"
+                ]
             }
         },
         {
@@ -5490,7 +5498,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "sex"
+                "primaryKey": [
+                    "sex"
+                ]
             }
         }
     ],
