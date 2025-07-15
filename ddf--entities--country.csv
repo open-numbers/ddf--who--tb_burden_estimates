@@ -142,7 +142,7 @@ ner,Niger,NER,NE,562
 nga,Nigeria,NGA,NG,566
 nic,Nicaragua,NIC,NI,558
 niu,Niue,NIU,NU,570
-nld,Netherlands,NLD,NL,528
+nld,Netherlands (Kingdom of the),NLD,NL,528
 nor,Norway,NOR,NO,578
 npl,Nepal,NPL,NP,524
 nru,Nauru,NRU,NR,520
@@ -210,7 +210,7 @@ ven,Venezuela (Bolivarian Republic of),VEN,VE,862
 vgb,British Virgin Islands,VGB,VG,92
 vnm,Viet Nam,VNM,VN,704
 vut,Vanuatu,VUT,VU,548
-wlf,Wallis and Futuna Islands,WLF,WF,876
+wlf,Wallis and Futuna,WLF,WF,876
 wsm,Samoa,WSM,WS,882
 yem,Yemen,YEM,YE,887
 zaf,South Africa,ZAF,ZA,710

@@ -116,7 +116,8 @@ def main():
     country2 = ltbi[['country', 'iso2', 'iso3', 'iso_numeric']]
     country3 = mdr[['country', 'iso2', 'iso3', 'iso_numeric']]
     country4 = tb2[['country', 'iso2', 'iso3', 'iso_numeric']]
-    country = pd.concat([country1, country2, country3, country4], ignore_index=True)
+    country5 = noti[['country', 'iso2', 'iso3', 'iso_numeric']]
+    country = pd.concat([country1, country2, country3, country4, country5], ignore_index=True)
     country = (country
                .drop_duplicates()
                .rename(columns={'country': 'name'}))
