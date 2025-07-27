@@ -1,14 +1,14 @@
 {
     "name": "ddf--who--tb_burden_estimates",
-    "title": "WHO TB burden estimates",
-    "description": "WHO TB burden estimates",
-    "author": "Gapminder",
-    "license": "CC-BY-4.0",
     "language": {
         "name": "English",
         "id": "en"
     },
-    "created": "2025-07-15T04:22:05.707Z",
+    "title": "WHO TB burden estimates",
+    "description": "WHO TB burden estimates",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "created": "2025-07-27T01:14:24.988356+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -29,83 +29,6 @@
                 ],
                 "primaryKey": [
                     "concept"
-                ]
-            }
-        },
-        {
-            "name": "ddf--entities--age_group",
-            "path": "ddf--entities--age_group.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "age_group"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": [
-                    "age_group"
-                ]
-            }
-        },
-        {
-            "name": "ddf--entities--country",
-            "path": "ddf--entities--country.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "iso3"
-                    },
-                    {
-                        "name": "iso2"
-                    },
-                    {
-                        "name": "iso_numeric"
-                    }
-                ],
-                "primaryKey": [
-                    "country"
-                ]
-            }
-        },
-        {
-            "name": "ddf--entities--risk_factor",
-            "path": "ddf--entities--risk_factor.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "risk_factor"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": [
-                    "risk_factor"
-                ]
-            }
-        },
-        {
-            "name": "ddf--entities--sex",
-            "path": "ddf--entities--sex.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": [
-                    "sex"
                 ]
             }
         },
@@ -719,27 +642,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_inc_num--by--country--year",
-            "path": "ddf--datapoints--e_inc_num--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_inc_num"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex",
             "path": "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex.csv",
             "schema": {
@@ -802,8 +704,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_inc_num_hi--by--country--year",
-            "path": "ddf--datapoints--e_inc_num_hi--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num--by--country--year",
+            "path": "ddf--datapoints--e_inc_num--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -813,7 +715,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "e_inc_num_hi"
+                        "name": "e_inc_num"
                     }
                 ],
                 "primaryKey": [
@@ -885,8 +787,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--e_inc_num_lo--by--country--year",
-            "path": "ddf--datapoints--e_inc_num_lo--by--country--year.csv",
+            "name": "ddf--datapoints--e_inc_num_hi--by--country--year",
+            "path": "ddf--datapoints--e_inc_num_hi--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -896,7 +798,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "e_inc_num_lo"
+                        "name": "e_inc_num_hi"
                     }
                 ],
                 "primaryKey": [
@@ -964,6 +866,27 @@
                     "year",
                     "age_group",
                     "sex"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--e_inc_num_lo--by--country--year",
+            "path": "ddf--datapoints--e_inc_num_lo--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "e_inc_num_lo"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
                 ]
             }
         },
@@ -6195,6 +6118,83 @@
                     "year"
                 ]
             }
+        },
+        {
+            "name": "ddf--entities--age_group",
+            "path": "ddf--entities--age_group.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "age_group"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--country",
+            "path": "ddf--entities--country.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "iso3"
+                    },
+                    {
+                        "name": "iso2"
+                    },
+                    {
+                        "name": "iso_numeric"
+                    }
+                ],
+                "primaryKey": [
+                    "country"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--risk_factor",
+            "path": "ddf--entities--risk_factor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "risk_factor"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "risk_factor"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--sex",
+            "path": "ddf--entities--sex.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "sex"
+                ]
+            }
         }
     ],
     "ddfSchema": {
@@ -6221,15 +6221,6 @@
         "entities": [
             {
                 "primaryKey": [
-                    "age_group"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--age_group"
-                ]
-            },
-            {
-                "primaryKey": [
                     "country"
                 ],
                 "value": "iso2",
@@ -6253,6 +6244,15 @@
                 "value": "iso_numeric",
                 "resources": [
                     "ddf--entities--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--age_group"
                 ]
             },
             {
@@ -6284,81 +6284,6 @@
             }
         ],
         "datapoints": [
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "risk_factor",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num",
-                "resources": [
-                    "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "risk_factor",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num_hi",
-                "resources": [
-                    "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--risk_factor--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "risk_factor",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num_lo",
-                "resources": [
-                    "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--risk_factor--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num",
-                "resources": [
-                    "ddf--datapoints--e_inc_num--by--country--year--age_group--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num_hi",
-                "resources": [
-                    "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age_group",
-                    "country",
-                    "sex",
-                    "year"
-                ],
-                "value": "e_inc_num_lo",
-                "resources": [
-                    "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--sex"
-                ]
-            },
             {
                 "primaryKey": [
                     "country",
@@ -6651,6 +6576,31 @@
             },
             {
                 "primaryKey": [
+                    "age_group",
+                    "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_num--by--country--year--age_group--risk_factor--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num",
+                "resources": [
+                    "ddf--datapoints--e_inc_num--by--country--year--age_group--sex"
+                ]
+            },
+            {
+                "primaryKey": [
                     "country",
                     "year"
                 ],
@@ -6661,12 +6611,62 @@
             },
             {
                 "primaryKey": [
+                    "age_group",
+                    "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--risk_factor--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_hi",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_hi--by--country--year--age_group--sex"
+                ]
+            },
+            {
+                "primaryKey": [
                     "country",
                     "year"
                 ],
                 "value": "e_inc_num_hi",
                 "resources": [
                     "ddf--datapoints--e_inc_num_hi--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
+                    "risk_factor",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--risk_factor--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age_group",
+                    "country",
+                    "sex",
+                    "year"
+                ],
+                "value": "e_inc_num_lo",
+                "resources": [
+                    "ddf--datapoints--e_inc_num_lo--by--country--year--age_group--sex"
                 ]
             },
             {
