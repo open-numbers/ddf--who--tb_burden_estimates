@@ -8,7 +8,7 @@
     "description": "WHO TB burden estimates",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2025-08-10T01:09:17.186216+00:00",
+    "created": "2025-11-16T01:01:58.230177+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -486,6 +486,132 @@
                     },
                     {
                         "name": "conf_xdr_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_18mplus_tx--by--country--year",
+            "path": "ddf--datapoints--dr_18mplus_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_18mplus_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_18mplus_used--by--country--year",
+            "path": "ddf--datapoints--dr_18mplus_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_18mplus_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_6m_tx--by--country--year",
+            "path": "ddf--datapoints--dr_6m_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_6m_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_6m_used--by--country--year",
+            "path": "ddf--datapoints--dr_6m_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_6m_used"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_9m_tx--by--country--year",
+            "path": "ddf--datapoints--dr_9m_tx--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_9m_tx"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dr_9m_used--by--country--year",
+            "path": "ddf--datapoints--dr_9m_used--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dr_9m_used"
                     }
                 ],
                 "primaryKey": [
@@ -1869,48 +1995,6 @@
                     },
                     {
                         "name": "e_tbhiv_prct"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_tbhiv_prct_hi--by--country--year",
-            "path": "ddf--datapoints--e_tbhiv_prct_hi--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_tbhiv_prct_hi"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--e_tbhiv_prct_lo--by--country--year",
-            "path": "ddf--datapoints--e_tbhiv_prct_lo--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "e_tbhiv_prct_lo"
                     }
                 ],
                 "primaryKey": [
@@ -6509,6 +6593,66 @@
                     "country",
                     "year"
                 ],
+                "value": "dr_18mplus_tx",
+                "resources": [
+                    "ddf--datapoints--dr_18mplus_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dr_18mplus_used",
+                "resources": [
+                    "ddf--datapoints--dr_18mplus_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dr_6m_tx",
+                "resources": [
+                    "ddf--datapoints--dr_6m_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dr_6m_used",
+                "resources": [
+                    "ddf--datapoints--dr_6m_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dr_9m_tx",
+                "resources": [
+                    "ddf--datapoints--dr_9m_tx--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dr_9m_used",
+                "resources": [
+                    "ddf--datapoints--dr_9m_used--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "e_hh_contacts",
                 "resources": [
                     "ddf--datapoints--e_hh_contacts--by--country--year"
@@ -7147,26 +7291,6 @@
                 "value": "e_tbhiv_prct",
                 "resources": [
                     "ddf--datapoints--e_tbhiv_prct--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_tbhiv_prct_hi",
-                "resources": [
-                    "ddf--datapoints--e_tbhiv_prct_hi--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "e_tbhiv_prct_lo",
-                "resources": [
-                    "ddf--datapoints--e_tbhiv_prct_lo--by--country--year"
                 ]
             },
             {

@@ -91,6 +91,12 @@ district_cxr,Number of districts in which chest X-ray was used regularly (with o
 district_description,"The name used in the country for the administrative level often known as a «district», a «basic management unit» or a «county».",measure
 district_monitor_pos_rate,Number of districts that monitored test positivity rate,measure
 district_wrd,Number of districts in which all facilities have a TB diagnostic algorithm that requires a WHO-recommended rapid diagnostic test to be used as the initial diagnostic test for all individuals with presumptive TB,measure
+dr_18mplus_tx,Number of patients started on a longer regimen of 18 months or more for the treatment of drug-resistant TB  during the reporting year,measure
+dr_18mplus_used,Had any TB patients been started on longer regimens of 18 months or more for the treatment of drug-resistant TB by the end of the reporting year?,measure
+dr_6m_tx,Number of patients started on a 6-month regimen for the treatment of MDR/RR-TB or pre-XDR-TB during the reporting year,measure
+dr_6m_used,Had any patients been started on a 6-month regimen for the treatment of MDR/RR-TB or pre-XDR-TB by the end of the reporting year?,measure
+dr_9m_tx,Number of patients started on a 9-month regimen for the treatment of MDR/RR-TB during the reporting year,measure
+dr_9m_used,Had any patients been started on a 9-month regimen for the treatment of MDR/RR-TB by the end of the reporting year?,measure
 dst,Number of sites providing phenotypic drug susceptibility testing for first-line drugs only at the end of the reporting year,measure
 dst_bdq,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for bedaquiline at the end of the reporting year,measure
 dst_bdq_eqa_pass,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for bedaquiline that demonstrated proficiency by panel testing in the reporting year,measure
@@ -102,6 +108,7 @@ dst_lzd_eqa_pass,Number of sites providing TB diagnostic services using phenotyp
 dst_moxlev,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for moxifloxacin and/or levofloxacin at the end of the reporting year,measure
 dst_moxlev_eqa_pass,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for moxifloxacin and/or levofloxacin that demonstrated proficiency by panel testing in the reporting year,measure
 dst_naat_pza,Number of sites providing TB diagnostic services using drug susceptibility testing for pyrazinamide at the end of the reporting year,measure
+dst_ptd,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for pretomanid at the end of the reporting year,measure
 dst_pza,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for pyrazinamide at the end of the reporting year,measure
 dst_pza_eqa_pass,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for pyrazinamide that demonstrated proficiency by panel testing in the reporting year,measure
 dst_rif,Number of sites providing TB diagnostic services using phenotypic drug susceptibility testing for rifampicin at the end of the reporting year,measure
@@ -286,6 +293,8 @@ m_wrd_etrans,Number of sites using molecular WHO-recommended rapid diagnostics r
 m_wrd_tat_lt_48h,Number of laboratories that achieved a turn-around time within 48 hours for at least 80% of samples received for WHO-recommended rapid diagnostic testing,measure
 m_wrd_tests_performed,Total number of diagnostic tests performed using molecular WHO-recommended rapid diagnostics,measure
 m_wrd_tests_positive,Number of positive results among the diagnostic tests performed using molecular WHO-recommended rapid diagnostics,measure
+maf_assessment,Has a Multisectoral Accountability Framework (MAF-TB) assessment been conducted to inform planning and implementation?,measure
+maf_implementation_plan,Has a Multisectoral Accountability Framework (MAF-TB) component been developed in the national strategic plan or has a standalone MAF-TB implementation plan been developed?,measure
 mdr_alloral_short_tx,Number of patients started on all oral shorter MDR-TB treatment regimens during the reporting year,measure
 mdr_alloral_short_used,Had any patients been started on all oral shorter MDR-TB treatment regimens by the end of the reporting year?,measure
 mdr_coh,Outcomes for MDR-TB cases: cohort size,measure
@@ -500,8 +509,6 @@ nrr_hivunk,"Among patients with results for rifampicin testing in r_rlt_new and 
 nrr_hpmz_tx,Number of patients started on the 4-month HPMZ regimen for the treatment of rifampicin-susceptible TB during the reporting year?,measure
 nrr_hpmz_used,Had any patients been started on the 4-month HPMZ regimen for the treatment of rifampicin-susceptible TB by the end of reporting year?,measure
 nrr_tx,Number of TB cases with no evidence of rifampicin resistance (either rifampicin susceptible or tests for susceptibility to rifampicin not done) started on a regimen to treat rifampicin-susceptible TB,measure
-people_cash_trans,(if cash_trans=1) The number of people started on TB treatment who were provided with conditional and/or unconditional cash-transfers,measure
-people_tx_enablers,(if enable_tx_adherence=1) The number of people started on TB treatment who were provided with enablers to adhere to TB treatment,measure
 phcf,Total number of primary health-care facilities,measure
 phcf_wrd,Number of primary health-care facilities with access to WHO-recommended rapid diagnostic tests (either on site or through a sample referral system),measure
 plhiv_all,(if plhiv_all_screen_data_available=1) Total number of people living with HIV,measure
@@ -520,17 +527,15 @@ prisoners,(if prisoners_screen_data_available=1) Total number of prisoners,measu
 prisoners_screen,(if prisoners_screen_data_available=1) Number of prisoners in who were screened for TB,measure
 prisoners_screen_data_available,Are data available on the number of prisoners screened for TB?,measure
 priv_new_dx,Number of new cases of TB diagnosed according to National Treatment Programme (NTP)  guidelines by private providers,measure
-protect_association,Is freedom of association for people with TB protected from stigma and discrimination through national laws and regulations? (e.g. no compulsory isolation because of a TB diagnosis),measure
-protect_employment,Is employment for people with TB protected from stigma and discrimination through national laws and regulations? (e.g. not being dismissed because of a TB diagnosis),measure
-protect_housing,Is housing for people with TB protected from stigma and discrimination through national laws and regulations? (e.g. not being evicted from housing facilities because of a TB diagnosis),measure
-protect_movement,Is freedom of movement for people with TB protected from stigma and discrimination through national laws and regulations? (e.g. no restriction to access any congregate setting or transit through any geographical area because of a TB diagnosis),measure
-protect_parenting,Are parental rights for people with TB protected from stigma and discrimination through national laws and regulations? (e.g. not having parental rights over children affected in any way as a result of TB diagnosis of a parent),measure
+priv_wrd,"Among the TB cases notified by private providers in priv_new_dx, the number tested using a WHO-recommended rapid diagnostic (for example Xpert MTB/RIF Ultra) as the initial diagnostic test (regardless of test result)",measure
+private_sector_link,Have links with the private sector been established as part of the Multisectoral Accountability Framework (MAF-TB) implementation process?,measure
 ptsurvey_newinc,(If prevtx_data_available=61) Number of bacteriologically-confirmed TB new and relapse cases notified in the reporting year whose medical records or treatment cards were included in a survey,measure
 ptsurvey_newinc_5plus,(If prevtx_5plus_data_available=61 and year=2017) Number of bacteriologically-confirmed TB new and relapse cases notified in the reporting year whose medical records or treatment cards were included in a survey,measure
 ptsurvey_newinc_con04_prevtx,(If prevtx_data_available=61) Number of children aged under 5 started on TB preventive treatment who are household contacts of the TB cases in ptsurvey_newinc,measure
 ptsurvey_newinc_con5plus_prevtx,"(If prevtx_5plus_data_available=61 and year=2017) Number of children aged 5 years and above, adolescents and adults started on TB preventive therapy who are household contacts of the TB cases in ptsurvey_newinc_5plus",measure
 ptsurvey_newinc_con_prevtx,(If prevtx_data_available=61) Number of household contacts of the TB cases surveyed in ptsurvey_newinc who were started on TB preventive treatment.,measure
 pub_new_dx,Number of new cases of TB diagnosed according to National Treatment Programme (NTP)  guidelines by non-NTP public providers,measure
+pub_wrd,"Among the TB cases notified by public non-NTP providers in pub_new_dx, the number tested using a WHO-recommended rapid diagnostic (for example Xpert MTB/RIF Ultra) as the initial diagnostic test (regardless of test result)",measure
 pulm_labconf_new,Number of new bacteriologically confirmed pulmonary TB cases,measure
 pulm_labconf_ret,Number of previously treated bacteriologically confirmed pulmonary TB cases,measure
 pulm_labconf_unk,Number of bacteriologically confirmed pulmonary TB cases with unknown TB treatment history,measure
@@ -540,6 +545,7 @@ qms_pending,Number of sites that by the end of the reporting year are not accred
 r_rlt_new,Number of new bacteriologically confirmed pulmonary TB patients with test results for rifampicin,measure
 r_rlt_rel,Number of bacteriologically confirmed pulmonary relapse TB patients with test results for rifampicin,measure
 r_rlt_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with test results for rifampicin,measure
+r_rlt_unk,Number of bacteriologically confirmed pulmonary TB patients with unknown previous treatment history and with test results for rifampicin,measure
 rcvd_fld,Funding received for drugs to treat drug-susceptible TB (US Dollars),measure
 rcvd_lab,"Funding received for laboratory infrastructure, equipment and supplies (US Dollars)",measure
 rcvd_mdrmgt,Funding received for programme costs to treat drug-resistant TB (US Dollars),measure
@@ -593,11 +599,13 @@ rev_newinc_con_tb,(If screen_data_available=61) Number of household contacts of 
 rr_014,"Among patients with results for rifampicin testing in r_rlt_new and r_rlt_ret, number resistant to rifampicin and who are aged 0-14 years",measure
 rr_15plus,"Among patients with results for rifampicin testing in r_rlt_new and r_rlt_ret, number resistant to rifampicin and who are aged 15 years and over",measure
 rr_ageunk,"Among patients with results for rifampicin testing in r_rlt_new and r_rlt_ret, number resistant to rifampicin and whose age is unknown",measure
+rr_bdqr,Number of bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to Bedaquiline,measure
 rr_dr_2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to second-line injectable agents,measure
 rr_dr_fq,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to fluoroquinolones,measure
 rr_dr_fq_2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to both fluoroquinolones and second-line injectable agents,measure
 rr_ds_fq2li,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and susceptible to both fluoroquinolones and second-line injectable agents,measure
 rr_dst_rlt,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and with test results for any fluoroquinolone and any second-line injectable agent,measure
+rr_dst_rlt_bdq,Number of bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and with test results for Bedaquiline,measure
 rr_dst_rlt_fq,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and with test results for any fluoroquinolone,measure
 rr_fqr,Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin and resistance to fluoroquinolones,measure
 rr_fqr_bdqr_lzdr,"Number of new or previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin, fluoroquinolones, bedaquiline and linezolid.",measure
@@ -617,6 +625,7 @@ rr_nfqr_014_tx,The number of children aged 0-14 years among patients who started
 rr_rel,Number of bacteriologically confirmed pulmonary relapse TB patients  with resistance to rifampicin (RR-TB),measure
 rr_ret,Number of previously treated bacteriologically confirmed pulmonary TB patients with resistance to rifampicin (RR-TB),measure
 rr_sldst,Number of laboratory-confirmed RR-TB or MDR-TB cases tested for susceptibility to second-line drugs (fluoroquinolones and second-line injectable agents),measure
+rr_unk,Number of bacteriologically confirmed pulmonary TB patients  with unknown previous treatment history and with resistance to rifampicin (RR-TB),measure
 rrmdr_014_tx,The number of children aged 0-14 years among patients who started treatment for MDR-TB (regardless of whether rifampicin resistance was confirmed),measure
 rxsupport_community_coh,Total number of patients who started TB treatment and who received any form of treatment adherence support from community health workers / community volunteers in the Basic Management Units with data on community treatment adherence support,measure
 rxsupport_community_succ,Total number of patients who were cured or who completed treatment among the cases who started TB treatment and who received any form of treatment adherence support from community health workers / community volunteers in the Basic Management Units with data on community treatment adherence support,measure
@@ -654,6 +663,7 @@ tpt_3hp,(If tpt_short_regimens_used=1) Was the 3 month weekly rifapentine and is
 tpt_3hr,(If tpt_short_regimens_used=1) Was the 3 month daily rifampicin and isoniazid (3HR) TB preventive treatment regimen used at least once?,measure
 tpt_4r,(If tpt_short_regimens_used=1) Was the 4 month daily rifampicin (4R) TB preventive treatment regimen used at least once?,measure
 tpt_6lfx,Was TB preventive treatment with 6 month daily levofloxacin (6Lfx) used at least once in contacts exposed to MDR/RR-TB?,measure
+tpt_rifapentine_tx,(If tpt_1hp=1 or tpt_3hp=1)  Total number of individuals started on shorter TB preventive treatment regimens containing rifapentine (1HP or 3HP),measure
 tpt_short_regimens_used,Were any shorter TB preventive treatment regimes containing rifampicin or rifapentine used at least once?,measure
 tsr,Treatment success rate as a percentage,measure
 tst_used,Were tuberculin skin tests (TST) used as tests of TB infection in the public or private sector before starting TB preventive treatment for any population at risk,measure

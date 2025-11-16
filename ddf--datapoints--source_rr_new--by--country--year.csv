@@ -8,6 +8,7 @@ afg,2020,Surveillance
 afg,2021,Surveillance
 afg,2022,Surveillance
 afg,2023,Surveillance
+afg,2024,Surveillance
 alb,2015,Surveillance
 alb,2016,Surveillance
 alb,2017,Surveillance
@@ -17,6 +18,7 @@ alb,2020,Surveillance
 alb,2021,Surveillance
 alb,2022,Surveillance
 alb,2023,Surveillance
+alb,2024,Surveillance
 dza,2015,Survey
 dza,2016,Survey
 dza,2017,Survey
@@ -26,24 +28,7 @@ dza,2020,Survey
 dza,2021,Survey
 dza,2022,Survey
 dza,2023,Survey
-asm,2015,Surveillance
-asm,2016,Surveillance
-asm,2017,Surveillance
-asm,2018,Surveillance
-asm,2019,Surveillance
-asm,2020,Surveillance
-asm,2021,Surveillance
-asm,2022,Surveillance
-asm,2023,Surveillance
-and,2015,Surveillance
-and,2016,Surveillance
-and,2017,Surveillance
-and,2018,Surveillance
-and,2019,Surveillance
-and,2020,Surveillance
-and,2021,Surveillance
-and,2022,Surveillance
-and,2023,Surveillance
+dza,2024,Survey
 ago,2015,Surveillance
 ago,2016,Surveillance
 ago,2017,Surveillance
@@ -53,24 +38,7 @@ ago,2020,Surveillance
 ago,2021,Surveillance
 ago,2022,Surveillance
 ago,2023,Surveillance
-aia,2015,Model
-aia,2016,Model
-aia,2017,Model
-aia,2018,Model
-aia,2019,Model
-aia,2020,Model
-aia,2021,Model
-aia,2022,Model
-aia,2023,Model
-atg,2015,Model
-atg,2016,Model
-atg,2017,Model
-atg,2018,Model
-atg,2019,Model
-atg,2020,Model
-atg,2021,Model
-atg,2022,Model
-atg,2023,Model
+ago,2024,Surveillance
 arg,2015,Survey
 arg,2016,Survey
 arg,2017,Survey
@@ -80,6 +48,7 @@ arg,2020,Survey
 arg,2021,Survey
 arg,2022,Survey
 arg,2023,Survey
+arg,2024,Survey
 arm,2015,Survey & Surveillance
 arm,2016,Survey & Surveillance
 arm,2017,Survey & Surveillance
@@ -89,15 +58,7 @@ arm,2020,Survey & Surveillance
 arm,2021,Survey & Surveillance
 arm,2022,Survey & Surveillance
 arm,2023,Survey & Surveillance
-abw,2015,Surveillance
-abw,2016,Surveillance
-abw,2017,Surveillance
-abw,2018,Surveillance
-abw,2019,Surveillance
-abw,2020,Surveillance
-abw,2021,Surveillance
-abw,2022,Surveillance
-abw,2023,Surveillance
+arm,2024,Survey & Surveillance
 aus,2015,Surveillance
 aus,2016,Surveillance
 aus,2017,Surveillance
@@ -107,6 +68,7 @@ aus,2020,Surveillance
 aus,2021,Surveillance
 aus,2022,Surveillance
 aus,2023,Surveillance
+aus,2024,Surveillance
 aut,2015,Surveillance
 aut,2016,Surveillance
 aut,2017,Surveillance
@@ -116,6 +78,7 @@ aut,2020,Surveillance
 aut,2021,Surveillance
 aut,2022,Surveillance
 aut,2023,Surveillance
+aut,2024,Surveillance
 aze,2015,Survey & Surveillance
 aze,2016,Survey & Surveillance
 aze,2017,Survey & Surveillance
@@ -125,6 +88,7 @@ aze,2020,Survey & Surveillance
 aze,2021,Survey & Surveillance
 aze,2022,Survey & Surveillance
 aze,2023,Survey & Surveillance
+aze,2024,Survey & Surveillance
 bhs,2015,Surveillance
 bhs,2016,Surveillance
 bhs,2017,Surveillance
@@ -134,6 +98,7 @@ bhs,2020,Surveillance
 bhs,2021,Surveillance
 bhs,2022,Surveillance
 bhs,2023,Surveillance
+bhs,2024,Surveillance
 bhr,2015,Surveillance
 bhr,2016,Surveillance
 bhr,2017,Surveillance
@@ -143,24 +108,17 @@ bhr,2020,Surveillance
 bhr,2021,Surveillance
 bhr,2022,Surveillance
 bhr,2023,Surveillance
-bgd,2015,Survey
-bgd,2016,Survey
-bgd,2017,Survey
-bgd,2018,Survey
-bgd,2019,Survey
-bgd,2020,Survey
-bgd,2021,Survey
-bgd,2022,Survey
-bgd,2023,Survey
-brb,2015,Surveillance
-brb,2016,Surveillance
-brb,2017,Surveillance
-brb,2018,Surveillance
-brb,2019,Surveillance
-brb,2020,Surveillance
-brb,2021,Surveillance
-brb,2022,Surveillance
-brb,2023,Surveillance
+bhr,2024,Surveillance
+bgd,2015,Survey & Surveillance
+bgd,2016,Survey & Surveillance
+bgd,2017,Survey & Surveillance
+bgd,2018,Survey & Surveillance
+bgd,2019,Survey & Surveillance
+bgd,2020,Survey & Surveillance
+bgd,2021,Survey & Surveillance
+bgd,2022,Survey & Surveillance
+bgd,2023,Survey & Surveillance
+bgd,2024,Survey & Surveillance
 blr,2015,Survey & Surveillance
 blr,2016,Survey & Surveillance
 blr,2017,Survey & Surveillance
@@ -170,6 +128,7 @@ blr,2020,Survey & Surveillance
 blr,2021,Survey & Surveillance
 blr,2022,Survey & Surveillance
 blr,2023,Survey & Surveillance
+blr,2024,Survey & Surveillance
 bel,2015,Surveillance
 bel,2016,Surveillance
 bel,2017,Surveillance
@@ -179,6 +138,7 @@ bel,2020,Surveillance
 bel,2021,Surveillance
 bel,2022,Surveillance
 bel,2023,Surveillance
+bel,2024,Surveillance
 blz,2015,Surveillance
 blz,2016,Surveillance
 blz,2017,Surveillance
@@ -188,6 +148,7 @@ blz,2020,Surveillance
 blz,2021,Surveillance
 blz,2022,Surveillance
 blz,2023,Surveillance
+blz,2024,Surveillance
 ben,2015,Survey & Surveillance
 ben,2016,Survey & Surveillance
 ben,2017,Survey & Surveillance
@@ -197,15 +158,7 @@ ben,2020,Survey & Surveillance
 ben,2021,Survey & Surveillance
 ben,2022,Survey & Surveillance
 ben,2023,Survey & Surveillance
-bmu,2015,Surveillance
-bmu,2016,Surveillance
-bmu,2017,Surveillance
-bmu,2018,Surveillance
-bmu,2019,Surveillance
-bmu,2020,Surveillance
-bmu,2021,Surveillance
-bmu,2022,Surveillance
-bmu,2023,Surveillance
+ben,2024,Survey & Surveillance
 btn,2015,Surveillance
 btn,2016,Surveillance
 btn,2017,Surveillance
@@ -215,6 +168,7 @@ btn,2020,Surveillance
 btn,2021,Surveillance
 btn,2022,Surveillance
 btn,2023,Surveillance
+btn,2024,Surveillance
 bol,2015,Surveillance
 bol,2016,Surveillance
 bol,2017,Surveillance
@@ -224,6 +178,7 @@ bol,2020,Surveillance
 bol,2021,Surveillance
 bol,2022,Surveillance
 bol,2023,Surveillance
+bol,2024,Surveillance
 bih,2015,Surveillance
 bih,2016,Surveillance
 bih,2017,Surveillance
@@ -233,6 +188,7 @@ bih,2020,Surveillance
 bih,2021,Surveillance
 bih,2022,Surveillance
 bih,2023,Surveillance
+bih,2024,Surveillance
 bwa,2015,Survey & Surveillance
 bwa,2016,Survey & Surveillance
 bwa,2017,Survey & Surveillance
@@ -242,6 +198,7 @@ bwa,2020,Survey & Surveillance
 bwa,2021,Survey & Surveillance
 bwa,2022,Survey & Surveillance
 bwa,2023,Survey & Surveillance
+bwa,2024,Survey & Surveillance
 bra,2015,Survey
 bra,2016,Survey
 bra,2017,Survey
@@ -251,15 +208,7 @@ bra,2020,Survey
 bra,2021,Survey
 bra,2022,Survey
 bra,2023,Survey
-vgb,2015,Model
-vgb,2016,Model
-vgb,2017,Model
-vgb,2018,Model
-vgb,2019,Model
-vgb,2020,Model
-vgb,2021,Model
-vgb,2022,Model
-vgb,2023,Model
+bra,2024,Survey
 brn,2015,Surveillance
 brn,2016,Surveillance
 brn,2017,Surveillance
@@ -269,6 +218,7 @@ brn,2020,Surveillance
 brn,2021,Surveillance
 brn,2022,Surveillance
 brn,2023,Surveillance
+brn,2024,Surveillance
 bgr,2015,Surveillance
 bgr,2016,Surveillance
 bgr,2017,Surveillance
@@ -278,6 +228,7 @@ bgr,2020,Surveillance
 bgr,2021,Surveillance
 bgr,2022,Surveillance
 bgr,2023,Surveillance
+bgr,2024,Surveillance
 bfa,2015,Survey & Surveillance
 bfa,2016,Survey & Surveillance
 bfa,2017,Survey & Surveillance
@@ -287,6 +238,7 @@ bfa,2020,Survey & Surveillance
 bfa,2021,Survey & Surveillance
 bfa,2022,Survey & Surveillance
 bfa,2023,Survey & Surveillance
+bfa,2024,Survey & Surveillance
 bdi,2015,Survey
 bdi,2016,Survey
 bdi,2017,Survey
@@ -296,6 +248,7 @@ bdi,2020,Survey
 bdi,2021,Survey
 bdi,2022,Survey
 bdi,2023,Survey
+bdi,2024,Survey
 cpv,2015,Surveillance
 cpv,2016,Surveillance
 cpv,2017,Surveillance
@@ -305,15 +258,17 @@ cpv,2020,Surveillance
 cpv,2021,Surveillance
 cpv,2022,Surveillance
 cpv,2023,Surveillance
-khm,2015,Survey
-khm,2016,Survey
-khm,2017,Survey
-khm,2018,Survey
-khm,2019,Survey
-khm,2020,Survey
-khm,2021,Survey
-khm,2022,Survey
-khm,2023,Survey
+cpv,2024,Surveillance
+khm,2015,Survey & Surveillance
+khm,2016,Survey & Surveillance
+khm,2017,Survey & Surveillance
+khm,2018,Survey & Surveillance
+khm,2019,Survey & Surveillance
+khm,2020,Survey & Surveillance
+khm,2021,Survey & Surveillance
+khm,2022,Survey & Surveillance
+khm,2023,Survey & Surveillance
+khm,2024,Survey & Surveillance
 cmr,2015,Survey
 cmr,2016,Survey
 cmr,2017,Survey
@@ -323,6 +278,7 @@ cmr,2020,Survey
 cmr,2021,Survey
 cmr,2022,Survey
 cmr,2023,Survey
+cmr,2024,Survey
 can,2015,Surveillance
 can,2016,Surveillance
 can,2017,Surveillance
@@ -332,24 +288,17 @@ can,2020,Surveillance
 can,2021,Surveillance
 can,2022,Surveillance
 can,2023,Surveillance
-cym,2015,Surveillance
-cym,2016,Surveillance
-cym,2017,Surveillance
-cym,2018,Surveillance
-cym,2019,Surveillance
-cym,2020,Surveillance
-cym,2021,Surveillance
-cym,2022,Surveillance
-cym,2023,Surveillance
-caf,2015,Survey
-caf,2016,Survey
-caf,2017,Survey
-caf,2018,Survey
-caf,2019,Survey
-caf,2020,Survey
-caf,2021,Survey
-caf,2022,Survey
-caf,2023,Survey
+can,2024,Surveillance
+caf,2015,Survey & Surveillance
+caf,2016,Survey & Surveillance
+caf,2017,Survey & Surveillance
+caf,2018,Survey & Surveillance
+caf,2019,Survey & Surveillance
+caf,2020,Survey & Surveillance
+caf,2021,Survey & Surveillance
+caf,2022,Survey & Surveillance
+caf,2023,Survey & Surveillance
+caf,2024,Survey & Surveillance
 tcd,2015,Surveillance
 tcd,2016,Surveillance
 tcd,2017,Surveillance
@@ -359,6 +308,7 @@ tcd,2020,Surveillance
 tcd,2021,Surveillance
 tcd,2022,Surveillance
 tcd,2023,Surveillance
+tcd,2024,Surveillance
 chl,2015,Survey & Surveillance
 chl,2016,Survey & Surveillance
 chl,2017,Survey & Surveillance
@@ -368,6 +318,7 @@ chl,2020,Survey & Surveillance
 chl,2021,Survey & Surveillance
 chl,2022,Survey & Surveillance
 chl,2023,Survey & Surveillance
+chl,2024,Survey & Surveillance
 chn,2015,Survey & Surveillance
 chn,2016,Survey & Surveillance
 chn,2017,Survey & Surveillance
@@ -377,6 +328,7 @@ chn,2020,Survey & Surveillance
 chn,2021,Survey & Surveillance
 chn,2022,Survey & Surveillance
 chn,2023,Survey & Surveillance
+chn,2024,Survey & Surveillance
 hkg,2015,Surveillance
 hkg,2016,Surveillance
 hkg,2017,Surveillance
@@ -386,6 +338,7 @@ hkg,2020,Surveillance
 hkg,2021,Surveillance
 hkg,2022,Surveillance
 hkg,2023,Surveillance
+hkg,2024,Surveillance
 mac,2015,Surveillance
 mac,2016,Surveillance
 mac,2017,Surveillance
@@ -395,6 +348,7 @@ mac,2020,Surveillance
 mac,2021,Surveillance
 mac,2022,Surveillance
 mac,2023,Surveillance
+mac,2024,Surveillance
 col,2015,Survey
 col,2016,Survey
 col,2017,Survey
@@ -404,6 +358,7 @@ col,2020,Survey
 col,2021,Survey
 col,2022,Survey
 col,2023,Survey
+col,2024,Survey
 com,2015,Surveillance
 com,2016,Surveillance
 com,2017,Surveillance
@@ -413,24 +368,17 @@ com,2020,Surveillance
 com,2021,Surveillance
 com,2022,Surveillance
 com,2023,Surveillance
-cog,2015,Model
-cog,2016,Model
-cog,2017,Model
-cog,2018,Model
-cog,2019,Model
-cog,2020,Model
-cog,2021,Model
-cog,2022,Model
-cog,2023,Model
-cok,2015,Surveillance
-cok,2016,Surveillance
-cok,2017,Surveillance
-cok,2018,Surveillance
-cok,2019,Surveillance
-cok,2020,Surveillance
-cok,2021,Surveillance
-cok,2022,Surveillance
-cok,2023,Surveillance
+com,2024,Surveillance
+cog,2015,Surveillance
+cog,2016,Surveillance
+cog,2017,Surveillance
+cog,2018,Surveillance
+cog,2019,Surveillance
+cog,2020,Surveillance
+cog,2021,Surveillance
+cog,2022,Surveillance
+cog,2023,Surveillance
+cog,2024,Surveillance
 cri,2015,Survey & Surveillance
 cri,2016,Survey & Surveillance
 cri,2017,Survey & Surveillance
@@ -440,15 +388,17 @@ cri,2020,Survey & Surveillance
 cri,2021,Survey & Surveillance
 cri,2022,Survey & Surveillance
 cri,2023,Survey & Surveillance
-civ,2015,Survey
-civ,2016,Survey
-civ,2017,Survey
-civ,2018,Survey
-civ,2019,Survey
-civ,2020,Survey
-civ,2021,Survey
-civ,2022,Survey
-civ,2023,Survey
+cri,2024,Survey & Surveillance
+civ,2015,Survey & Surveillance
+civ,2016,Survey & Surveillance
+civ,2017,Survey & Surveillance
+civ,2018,Survey & Surveillance
+civ,2019,Survey & Surveillance
+civ,2020,Survey & Surveillance
+civ,2021,Survey & Surveillance
+civ,2022,Survey & Surveillance
+civ,2023,Survey & Surveillance
+civ,2024,Survey & Surveillance
 hrv,2015,Surveillance
 hrv,2016,Surveillance
 hrv,2017,Surveillance
@@ -458,6 +408,7 @@ hrv,2020,Surveillance
 hrv,2021,Surveillance
 hrv,2022,Surveillance
 hrv,2023,Surveillance
+hrv,2024,Surveillance
 cub,2015,Surveillance
 cub,2016,Surveillance
 cub,2017,Surveillance
@@ -467,15 +418,7 @@ cub,2020,Surveillance
 cub,2021,Surveillance
 cub,2022,Surveillance
 cub,2023,Surveillance
-cuw,2015,Surveillance
-cuw,2016,Surveillance
-cuw,2017,Surveillance
-cuw,2018,Surveillance
-cuw,2019,Surveillance
-cuw,2020,Surveillance
-cuw,2021,Surveillance
-cuw,2022,Surveillance
-cuw,2023,Surveillance
+cub,2024,Surveillance
 cyp,2015,Surveillance
 cyp,2016,Surveillance
 cyp,2017,Surveillance
@@ -485,6 +428,7 @@ cyp,2020,Surveillance
 cyp,2021,Surveillance
 cyp,2022,Surveillance
 cyp,2023,Surveillance
+cyp,2024,Surveillance
 cze,2015,Surveillance
 cze,2016,Surveillance
 cze,2017,Surveillance
@@ -494,15 +438,7 @@ cze,2020,Surveillance
 cze,2021,Surveillance
 cze,2022,Surveillance
 cze,2023,Surveillance
-prk,2015,Survey
-prk,2016,Survey
-prk,2017,Survey
-prk,2018,Survey
-prk,2019,Survey
-prk,2020,Survey
-prk,2021,Survey
-prk,2022,Survey
-prk,2023,Survey
+cze,2024,Surveillance
 cod,2015,Survey
 cod,2016,Survey
 cod,2017,Survey
@@ -512,6 +448,7 @@ cod,2020,Survey
 cod,2021,Survey
 cod,2022,Survey
 cod,2023,Survey
+cod,2024,Survey
 dnk,2015,Surveillance
 dnk,2016,Surveillance
 dnk,2017,Surveillance
@@ -521,6 +458,7 @@ dnk,2020,Surveillance
 dnk,2021,Surveillance
 dnk,2022,Surveillance
 dnk,2023,Surveillance
+dnk,2024,Surveillance
 dji,2015,Survey
 dji,2016,Survey
 dji,2017,Survey
@@ -530,15 +468,7 @@ dji,2020,Survey
 dji,2021,Survey
 dji,2022,Survey
 dji,2023,Survey
-dma,2015,Surveillance
-dma,2016,Surveillance
-dma,2017,Surveillance
-dma,2018,Surveillance
-dma,2019,Surveillance
-dma,2020,Surveillance
-dma,2021,Surveillance
-dma,2022,Surveillance
-dma,2023,Surveillance
+dji,2024,Survey
 dom,2015,Surveillance
 dom,2016,Surveillance
 dom,2017,Surveillance
@@ -548,6 +478,7 @@ dom,2020,Surveillance
 dom,2021,Surveillance
 dom,2022,Surveillance
 dom,2023,Surveillance
+dom,2024,Surveillance
 ecu,2015,Survey & Surveillance
 ecu,2016,Survey & Surveillance
 ecu,2017,Survey & Surveillance
@@ -557,6 +488,7 @@ ecu,2020,Survey & Surveillance
 ecu,2021,Survey & Surveillance
 ecu,2022,Survey & Surveillance
 ecu,2023,Survey & Surveillance
+ecu,2024,Survey & Surveillance
 egy,2015,Survey & Surveillance
 egy,2016,Survey & Surveillance
 egy,2017,Survey & Surveillance
@@ -566,24 +498,27 @@ egy,2020,Survey & Surveillance
 egy,2021,Survey & Surveillance
 egy,2022,Survey & Surveillance
 egy,2023,Survey & Surveillance
-slv,2015,Survey
-slv,2016,Survey
-slv,2017,Survey
-slv,2018,Survey
-slv,2019,Survey
-slv,2020,Survey
-slv,2021,Survey
-slv,2022,Survey
-slv,2023,Survey
-gnq,2015,Model
-gnq,2016,Model
-gnq,2017,Model
-gnq,2018,Model
-gnq,2019,Model
-gnq,2020,Model
-gnq,2021,Model
-gnq,2022,Model
-gnq,2023,Model
+egy,2024,Survey & Surveillance
+slv,2015,Survey & Surveillance
+slv,2016,Survey & Surveillance
+slv,2017,Survey & Surveillance
+slv,2018,Survey & Surveillance
+slv,2019,Survey & Surveillance
+slv,2020,Survey & Surveillance
+slv,2021,Survey & Surveillance
+slv,2022,Survey & Surveillance
+slv,2023,Survey & Surveillance
+slv,2024,Survey & Surveillance
+gnq,2015,Surveillance
+gnq,2016,Surveillance
+gnq,2017,Surveillance
+gnq,2018,Surveillance
+gnq,2019,Surveillance
+gnq,2020,Surveillance
+gnq,2021,Surveillance
+gnq,2022,Surveillance
+gnq,2023,Surveillance
+gnq,2024,Surveillance
 eri,2015,Survey & Surveillance
 eri,2016,Survey & Surveillance
 eri,2017,Survey & Surveillance
@@ -593,6 +528,7 @@ eri,2020,Survey & Surveillance
 eri,2021,Survey & Surveillance
 eri,2022,Survey & Surveillance
 eri,2023,Survey & Surveillance
+eri,2024,Survey & Surveillance
 est,2015,Surveillance
 est,2016,Surveillance
 est,2017,Surveillance
@@ -602,6 +538,7 @@ est,2020,Surveillance
 est,2021,Surveillance
 est,2022,Surveillance
 est,2023,Surveillance
+est,2024,Surveillance
 swz,2015,Survey & Surveillance
 swz,2016,Survey & Surveillance
 swz,2017,Survey & Surveillance
@@ -611,6 +548,7 @@ swz,2020,Survey & Surveillance
 swz,2021,Survey & Surveillance
 swz,2022,Survey & Surveillance
 swz,2023,Survey & Surveillance
+swz,2024,Survey & Surveillance
 eth,2015,Survey & Surveillance
 eth,2016,Survey & Surveillance
 eth,2017,Survey & Surveillance
@@ -620,6 +558,7 @@ eth,2020,Survey & Surveillance
 eth,2021,Survey & Surveillance
 eth,2022,Survey & Surveillance
 eth,2023,Survey & Surveillance
+eth,2024,Survey & Surveillance
 fji,2015,Surveillance
 fji,2016,Surveillance
 fji,2017,Surveillance
@@ -629,6 +568,7 @@ fji,2020,Surveillance
 fji,2021,Surveillance
 fji,2022,Surveillance
 fji,2023,Surveillance
+fji,2024,Surveillance
 fin,2015,Surveillance
 fin,2016,Surveillance
 fin,2017,Surveillance
@@ -638,6 +578,7 @@ fin,2020,Surveillance
 fin,2021,Surveillance
 fin,2022,Surveillance
 fin,2023,Surveillance
+fin,2024,Surveillance
 fra,2015,Surveillance
 fra,2016,Surveillance
 fra,2017,Surveillance
@@ -647,6 +588,7 @@ fra,2020,Surveillance
 fra,2021,Surveillance
 fra,2022,Surveillance
 fra,2023,Surveillance
+fra,2024,Surveillance
 pyf,2015,Surveillance
 pyf,2016,Surveillance
 pyf,2017,Surveillance
@@ -656,6 +598,7 @@ pyf,2020,Surveillance
 pyf,2021,Surveillance
 pyf,2022,Surveillance
 pyf,2023,Surveillance
+pyf,2024,Surveillance
 gab,2015,Surveillance
 gab,2016,Surveillance
 gab,2017,Surveillance
@@ -665,6 +608,7 @@ gab,2020,Surveillance
 gab,2021,Surveillance
 gab,2022,Surveillance
 gab,2023,Surveillance
+gab,2024,Surveillance
 gmb,2015,Survey & Surveillance
 gmb,2016,Survey & Surveillance
 gmb,2017,Survey & Surveillance
@@ -674,6 +618,7 @@ gmb,2020,Survey & Surveillance
 gmb,2021,Survey & Surveillance
 gmb,2022,Survey & Surveillance
 gmb,2023,Survey & Surveillance
+gmb,2024,Survey & Surveillance
 geo,2015,Survey & Surveillance
 geo,2016,Survey & Surveillance
 geo,2017,Survey & Surveillance
@@ -683,6 +628,7 @@ geo,2020,Survey & Surveillance
 geo,2021,Survey & Surveillance
 geo,2022,Survey & Surveillance
 geo,2023,Survey & Surveillance
+geo,2024,Survey & Surveillance
 deu,2015,Surveillance
 deu,2016,Surveillance
 deu,2017,Surveillance
@@ -692,6 +638,7 @@ deu,2020,Surveillance
 deu,2021,Surveillance
 deu,2022,Surveillance
 deu,2023,Surveillance
+deu,2024,Surveillance
 gha,2015,Survey & Surveillance
 gha,2016,Survey & Surveillance
 gha,2017,Survey & Surveillance
@@ -701,6 +648,7 @@ gha,2020,Survey & Surveillance
 gha,2021,Survey & Surveillance
 gha,2022,Survey & Surveillance
 gha,2023,Survey & Surveillance
+gha,2024,Survey & Surveillance
 grc,2015,Surveillance
 grc,2016,Surveillance
 grc,2017,Surveillance
@@ -710,6 +658,7 @@ grc,2020,Surveillance
 grc,2021,Surveillance
 grc,2022,Surveillance
 grc,2023,Surveillance
+grc,2024,Surveillance
 grl,2015,Surveillance
 grl,2016,Surveillance
 grl,2017,Surveillance
@@ -719,15 +668,7 @@ grl,2020,Surveillance
 grl,2021,Surveillance
 grl,2022,Surveillance
 grl,2023,Surveillance
-grd,2015,Surveillance
-grd,2016,Surveillance
-grd,2017,Surveillance
-grd,2018,Surveillance
-grd,2019,Surveillance
-grd,2020,Surveillance
-grd,2021,Surveillance
-grd,2022,Surveillance
-grd,2023,Surveillance
+grl,2024,Surveillance
 gum,2015,Surveillance
 gum,2016,Surveillance
 gum,2017,Surveillance
@@ -737,6 +678,7 @@ gum,2020,Surveillance
 gum,2021,Surveillance
 gum,2022,Surveillance
 gum,2023,Surveillance
+gum,2024,Surveillance
 gtm,2015,Survey & Surveillance
 gtm,2016,Survey & Surveillance
 gtm,2017,Survey & Surveillance
@@ -746,15 +688,17 @@ gtm,2020,Survey & Surveillance
 gtm,2021,Survey & Surveillance
 gtm,2022,Survey & Surveillance
 gtm,2023,Survey & Surveillance
-gin,2015,Model
-gin,2016,Model
-gin,2017,Model
-gin,2018,Model
-gin,2019,Model
-gin,2020,Model
-gin,2021,Model
-gin,2022,Model
-gin,2023,Model
+gtm,2024,Survey & Surveillance
+gin,2015,Surveillance
+gin,2016,Surveillance
+gin,2017,Surveillance
+gin,2018,Surveillance
+gin,2019,Surveillance
+gin,2020,Surveillance
+gin,2021,Surveillance
+gin,2022,Surveillance
+gin,2023,Surveillance
+gin,2024,Surveillance
 gnb,2015,Surveillance
 gnb,2016,Surveillance
 gnb,2017,Surveillance
@@ -764,6 +708,7 @@ gnb,2020,Surveillance
 gnb,2021,Surveillance
 gnb,2022,Surveillance
 gnb,2023,Surveillance
+gnb,2024,Surveillance
 guy,2015,Surveillance
 guy,2016,Surveillance
 guy,2017,Surveillance
@@ -773,6 +718,7 @@ guy,2020,Surveillance
 guy,2021,Surveillance
 guy,2022,Surveillance
 guy,2023,Surveillance
+guy,2024,Surveillance
 hti,2015,Model
 hti,2016,Model
 hti,2017,Model
@@ -782,6 +728,7 @@ hti,2020,Model
 hti,2021,Model
 hti,2022,Model
 hti,2023,Model
+hti,2024,Model
 hnd,2015,Survey
 hnd,2016,Survey
 hnd,2017,Survey
@@ -791,6 +738,7 @@ hnd,2020,Survey
 hnd,2021,Survey
 hnd,2022,Survey
 hnd,2023,Survey
+hnd,2024,Survey
 hun,2015,Surveillance
 hun,2016,Surveillance
 hun,2017,Surveillance
@@ -800,15 +748,7 @@ hun,2020,Surveillance
 hun,2021,Surveillance
 hun,2022,Surveillance
 hun,2023,Surveillance
-isl,2015,Surveillance
-isl,2016,Surveillance
-isl,2017,Surveillance
-isl,2018,Surveillance
-isl,2019,Surveillance
-isl,2020,Surveillance
-isl,2021,Surveillance
-isl,2022,Surveillance
-isl,2023,Surveillance
+hun,2024,Surveillance
 ind,2015,Survey & Surveillance
 ind,2016,Survey & Surveillance
 ind,2017,Survey & Surveillance
@@ -818,6 +758,7 @@ ind,2020,Survey & Surveillance
 ind,2021,Survey & Surveillance
 ind,2022,Survey & Surveillance
 ind,2023,Survey & Surveillance
+ind,2024,Survey & Surveillance
 idn,2015,Survey & Surveillance
 idn,2016,Survey & Surveillance
 idn,2017,Survey & Surveillance
@@ -827,6 +768,7 @@ idn,2020,Survey & Surveillance
 idn,2021,Survey & Surveillance
 idn,2022,Survey & Surveillance
 idn,2023,Survey & Surveillance
+idn,2024,Survey & Surveillance
 irn,2015,Survey
 irn,2016,Survey
 irn,2017,Survey
@@ -836,6 +778,7 @@ irn,2020,Survey
 irn,2021,Survey
 irn,2022,Survey
 irn,2023,Survey
+irn,2024,Survey
 irq,2015,Survey & Surveillance
 irq,2016,Survey & Surveillance
 irq,2017,Survey & Surveillance
@@ -845,6 +788,7 @@ irq,2020,Survey & Surveillance
 irq,2021,Survey & Surveillance
 irq,2022,Survey & Surveillance
 irq,2023,Survey & Surveillance
+irq,2024,Survey & Surveillance
 irl,2015,Surveillance
 irl,2016,Surveillance
 irl,2017,Surveillance
@@ -854,6 +798,7 @@ irl,2020,Surveillance
 irl,2021,Surveillance
 irl,2022,Surveillance
 irl,2023,Surveillance
+irl,2024,Surveillance
 isr,2015,Surveillance
 isr,2016,Surveillance
 isr,2017,Surveillance
@@ -863,6 +808,7 @@ isr,2020,Surveillance
 isr,2021,Surveillance
 isr,2022,Surveillance
 isr,2023,Surveillance
+isr,2024,Surveillance
 ita,2015,Surveillance
 ita,2016,Surveillance
 ita,2017,Surveillance
@@ -872,6 +818,7 @@ ita,2020,Surveillance
 ita,2021,Surveillance
 ita,2022,Surveillance
 ita,2023,Surveillance
+ita,2024,Surveillance
 jam,2015,Surveillance
 jam,2016,Surveillance
 jam,2017,Surveillance
@@ -881,6 +828,7 @@ jam,2020,Surveillance
 jam,2021,Surveillance
 jam,2022,Surveillance
 jam,2023,Surveillance
+jam,2024,Surveillance
 jpn,2015,Surveillance
 jpn,2016,Surveillance
 jpn,2017,Surveillance
@@ -890,6 +838,7 @@ jpn,2020,Surveillance
 jpn,2021,Surveillance
 jpn,2022,Surveillance
 jpn,2023,Surveillance
+jpn,2024,Surveillance
 jor,2015,Survey & Surveillance
 jor,2016,Survey & Surveillance
 jor,2017,Survey & Surveillance
@@ -899,6 +848,7 @@ jor,2020,Survey & Surveillance
 jor,2021,Survey & Surveillance
 jor,2022,Survey & Surveillance
 jor,2023,Survey & Surveillance
+jor,2024,Survey & Surveillance
 kaz,2015,Survey & Surveillance
 kaz,2016,Survey & Surveillance
 kaz,2017,Survey & Surveillance
@@ -908,6 +858,7 @@ kaz,2020,Survey & Surveillance
 kaz,2021,Survey & Surveillance
 kaz,2022,Survey & Surveillance
 kaz,2023,Survey & Surveillance
+kaz,2024,Survey & Surveillance
 ken,2015,Survey & Surveillance
 ken,2016,Survey & Surveillance
 ken,2017,Survey & Surveillance
@@ -917,6 +868,7 @@ ken,2020,Survey & Surveillance
 ken,2021,Survey & Surveillance
 ken,2022,Survey & Surveillance
 ken,2023,Survey & Surveillance
+ken,2024,Survey & Surveillance
 kir,2015,Surveillance
 kir,2016,Surveillance
 kir,2017,Surveillance
@@ -926,6 +878,7 @@ kir,2020,Surveillance
 kir,2021,Surveillance
 kir,2022,Surveillance
 kir,2023,Surveillance
+kir,2024,Surveillance
 kwt,2015,Surveillance
 kwt,2016,Surveillance
 kwt,2017,Surveillance
@@ -935,6 +888,7 @@ kwt,2020,Surveillance
 kwt,2021,Surveillance
 kwt,2022,Surveillance
 kwt,2023,Surveillance
+kwt,2024,Surveillance
 kgz,2015,Survey & Surveillance
 kgz,2016,Survey & Surveillance
 kgz,2017,Survey & Surveillance
@@ -944,6 +898,7 @@ kgz,2020,Survey & Surveillance
 kgz,2021,Survey & Surveillance
 kgz,2022,Survey & Surveillance
 kgz,2023,Survey & Surveillance
+kgz,2024,Survey & Surveillance
 lao,2015,Survey & Surveillance
 lao,2016,Survey & Surveillance
 lao,2017,Survey & Surveillance
@@ -953,6 +908,7 @@ lao,2020,Survey & Surveillance
 lao,2021,Survey & Surveillance
 lao,2022,Survey & Surveillance
 lao,2023,Survey & Surveillance
+lao,2024,Survey & Surveillance
 lva,2015,Surveillance
 lva,2016,Surveillance
 lva,2017,Surveillance
@@ -962,6 +918,7 @@ lva,2020,Surveillance
 lva,2021,Surveillance
 lva,2022,Surveillance
 lva,2023,Surveillance
+lva,2024,Surveillance
 lbn,2015,Survey & Surveillance
 lbn,2016,Survey & Surveillance
 lbn,2017,Survey & Surveillance
@@ -971,6 +928,7 @@ lbn,2020,Survey & Surveillance
 lbn,2021,Survey & Surveillance
 lbn,2022,Survey & Surveillance
 lbn,2023,Survey & Surveillance
+lbn,2024,Survey & Surveillance
 lso,2015,Survey & Surveillance
 lso,2016,Survey & Surveillance
 lso,2017,Survey & Surveillance
@@ -980,6 +938,7 @@ lso,2020,Survey & Surveillance
 lso,2021,Survey & Surveillance
 lso,2022,Survey & Surveillance
 lso,2023,Survey & Surveillance
+lso,2024,Survey & Surveillance
 lbr,2015,Model
 lbr,2016,Model
 lbr,2017,Model
@@ -989,6 +948,7 @@ lbr,2020,Model
 lbr,2021,Model
 lbr,2022,Model
 lbr,2023,Model
+lbr,2024,Model
 lby,2015,Surveillance
 lby,2016,Surveillance
 lby,2017,Surveillance
@@ -998,6 +958,7 @@ lby,2020,Surveillance
 lby,2021,Surveillance
 lby,2022,Surveillance
 lby,2023,Surveillance
+lby,2024,Surveillance
 ltu,2015,Surveillance
 ltu,2016,Surveillance
 ltu,2017,Surveillance
@@ -1007,6 +968,7 @@ ltu,2020,Surveillance
 ltu,2021,Surveillance
 ltu,2022,Surveillance
 ltu,2023,Surveillance
+ltu,2024,Surveillance
 lux,2015,Surveillance
 lux,2016,Surveillance
 lux,2017,Surveillance
@@ -1016,6 +978,7 @@ lux,2020,Surveillance
 lux,2021,Surveillance
 lux,2022,Surveillance
 lux,2023,Surveillance
+lux,2024,Surveillance
 mdg,2015,Survey
 mdg,2016,Survey
 mdg,2017,Survey
@@ -1025,6 +988,7 @@ mdg,2020,Survey
 mdg,2021,Survey
 mdg,2022,Survey
 mdg,2023,Survey
+mdg,2024,Survey
 mwi,2015,Survey
 mwi,2016,Survey
 mwi,2017,Survey
@@ -1034,6 +998,7 @@ mwi,2020,Survey
 mwi,2021,Survey
 mwi,2022,Survey
 mwi,2023,Survey
+mwi,2024,Survey
 mys,2015,Surveillance
 mys,2016,Surveillance
 mys,2017,Surveillance
@@ -1043,6 +1008,7 @@ mys,2020,Surveillance
 mys,2021,Surveillance
 mys,2022,Surveillance
 mys,2023,Surveillance
+mys,2024,Surveillance
 mdv,2015,Surveillance
 mdv,2016,Surveillance
 mdv,2017,Surveillance
@@ -1052,6 +1018,7 @@ mdv,2020,Surveillance
 mdv,2021,Surveillance
 mdv,2022,Surveillance
 mdv,2023,Surveillance
+mdv,2024,Surveillance
 mli,2015,Survey
 mli,2016,Survey
 mli,2017,Survey
@@ -1061,15 +1028,7 @@ mli,2020,Survey
 mli,2021,Survey
 mli,2022,Survey
 mli,2023,Survey
-mlt,2015,Surveillance
-mlt,2016,Surveillance
-mlt,2017,Surveillance
-mlt,2018,Surveillance
-mlt,2019,Surveillance
-mlt,2020,Surveillance
-mlt,2021,Surveillance
-mlt,2022,Surveillance
-mlt,2023,Surveillance
+mli,2024,Survey
 mhl,2015,Surveillance
 mhl,2016,Surveillance
 mhl,2017,Surveillance
@@ -1079,6 +1038,7 @@ mhl,2020,Surveillance
 mhl,2021,Surveillance
 mhl,2022,Surveillance
 mhl,2023,Surveillance
+mhl,2024,Surveillance
 mrt,2015,Model
 mrt,2016,Model
 mrt,2017,Model
@@ -1088,6 +1048,7 @@ mrt,2020,Model
 mrt,2021,Model
 mrt,2022,Model
 mrt,2023,Model
+mrt,2024,Model
 mus,2015,Surveillance
 mus,2016,Surveillance
 mus,2017,Surveillance
@@ -1097,6 +1058,7 @@ mus,2020,Surveillance
 mus,2021,Surveillance
 mus,2022,Surveillance
 mus,2023,Surveillance
+mus,2024,Surveillance
 mex,2015,Survey
 mex,2016,Survey
 mex,2017,Survey
@@ -1106,6 +1068,7 @@ mex,2020,Survey
 mex,2021,Survey
 mex,2022,Survey
 mex,2023,Survey
+mex,2024,Survey
 fsm,2015,Surveillance
 fsm,2016,Surveillance
 fsm,2017,Surveillance
@@ -1115,15 +1078,7 @@ fsm,2020,Surveillance
 fsm,2021,Surveillance
 fsm,2022,Surveillance
 fsm,2023,Surveillance
-mco,2015,Model
-mco,2016,Model
-mco,2017,Model
-mco,2018,Model
-mco,2019,Model
-mco,2020,Model
-mco,2021,Model
-mco,2022,Model
-mco,2023,Model
+fsm,2024,Surveillance
 mng,2015,Survey & Surveillance
 mng,2016,Survey & Surveillance
 mng,2017,Survey & Surveillance
@@ -1133,6 +1088,7 @@ mng,2020,Survey & Surveillance
 mng,2021,Survey & Surveillance
 mng,2022,Survey & Surveillance
 mng,2023,Survey & Surveillance
+mng,2024,Survey & Surveillance
 mne,2015,Surveillance
 mne,2016,Surveillance
 mne,2017,Surveillance
@@ -1142,24 +1098,17 @@ mne,2020,Surveillance
 mne,2021,Surveillance
 mne,2022,Surveillance
 mne,2023,Surveillance
-msr,2015,Model
-msr,2016,Model
-msr,2017,Model
-msr,2018,Model
-msr,2019,Model
-msr,2020,Model
-msr,2021,Model
-msr,2022,Model
-msr,2023,Model
-mar,2015,Survey
-mar,2016,Survey
-mar,2017,Survey
-mar,2018,Survey
-mar,2019,Survey
-mar,2020,Survey
-mar,2021,Survey
-mar,2022,Survey
-mar,2023,Survey
+mne,2024,Surveillance
+mar,2015,Survey & Surveillance
+mar,2016,Survey & Surveillance
+mar,2017,Survey & Surveillance
+mar,2018,Survey & Surveillance
+mar,2019,Survey & Surveillance
+mar,2020,Survey & Surveillance
+mar,2021,Survey & Surveillance
+mar,2022,Survey & Surveillance
+mar,2023,Survey & Surveillance
+mar,2024,Survey & Surveillance
 moz,2015,Survey & Surveillance
 moz,2016,Survey & Surveillance
 moz,2017,Survey & Surveillance
@@ -1169,6 +1118,7 @@ moz,2020,Survey & Surveillance
 moz,2021,Survey & Surveillance
 moz,2022,Survey & Surveillance
 moz,2023,Survey & Surveillance
+moz,2024,Survey & Surveillance
 mmr,2015,Survey & Surveillance
 mmr,2016,Survey & Surveillance
 mmr,2017,Survey & Surveillance
@@ -1178,6 +1128,7 @@ mmr,2020,Survey & Surveillance
 mmr,2021,Survey & Surveillance
 mmr,2022,Survey & Surveillance
 mmr,2023,Survey & Surveillance
+mmr,2024,Survey & Surveillance
 nam,2015,Survey & Surveillance
 nam,2016,Survey & Surveillance
 nam,2017,Survey & Surveillance
@@ -1187,15 +1138,7 @@ nam,2020,Survey & Surveillance
 nam,2021,Survey & Surveillance
 nam,2022,Survey & Surveillance
 nam,2023,Survey & Surveillance
-nru,2015,Surveillance
-nru,2016,Surveillance
-nru,2017,Surveillance
-nru,2018,Surveillance
-nru,2019,Surveillance
-nru,2020,Surveillance
-nru,2021,Surveillance
-nru,2022,Surveillance
-nru,2023,Surveillance
+nam,2024,Survey & Surveillance
 npl,2015,Survey & Surveillance
 npl,2016,Survey & Surveillance
 npl,2017,Survey & Surveillance
@@ -1205,6 +1148,7 @@ npl,2020,Survey & Surveillance
 npl,2021,Survey & Surveillance
 npl,2022,Survey & Surveillance
 npl,2023,Survey & Surveillance
+npl,2024,Survey & Surveillance
 nld,2015,Surveillance
 nld,2016,Surveillance
 nld,2017,Surveillance
@@ -1214,6 +1158,7 @@ nld,2020,Surveillance
 nld,2021,Surveillance
 nld,2022,Surveillance
 nld,2023,Surveillance
+nld,2024,Surveillance
 ncl,2015,Surveillance
 ncl,2016,Surveillance
 ncl,2017,Surveillance
@@ -1223,6 +1168,7 @@ ncl,2020,Surveillance
 ncl,2021,Surveillance
 ncl,2022,Surveillance
 ncl,2023,Surveillance
+ncl,2024,Surveillance
 nzl,2015,Surveillance
 nzl,2016,Surveillance
 nzl,2017,Surveillance
@@ -1232,6 +1178,7 @@ nzl,2020,Surveillance
 nzl,2021,Surveillance
 nzl,2022,Surveillance
 nzl,2023,Surveillance
+nzl,2024,Surveillance
 nic,2015,Survey & Surveillance
 nic,2016,Survey & Surveillance
 nic,2017,Survey & Surveillance
@@ -1241,6 +1188,7 @@ nic,2020,Survey & Surveillance
 nic,2021,Survey & Surveillance
 nic,2022,Survey & Surveillance
 nic,2023,Survey & Surveillance
+nic,2024,Survey & Surveillance
 ner,2015,Survey
 ner,2016,Survey
 ner,2017,Survey
@@ -1250,6 +1198,7 @@ ner,2020,Survey
 ner,2021,Survey
 ner,2022,Survey
 ner,2023,Survey
+ner,2024,Survey
 nga,2015,Survey & Surveillance
 nga,2016,Survey & Surveillance
 nga,2017,Survey & Surveillance
@@ -1259,15 +1208,7 @@ nga,2020,Survey & Surveillance
 nga,2021,Survey & Surveillance
 nga,2022,Survey & Surveillance
 nga,2023,Survey & Surveillance
-niu,2015,Model
-niu,2016,Model
-niu,2017,Model
-niu,2018,Model
-niu,2019,Model
-niu,2020,Model
-niu,2021,Model
-niu,2022,Model
-niu,2023,Model
+nga,2024,Survey & Surveillance
 mkd,2015,Surveillance
 mkd,2016,Surveillance
 mkd,2017,Surveillance
@@ -1277,6 +1218,7 @@ mkd,2020,Surveillance
 mkd,2021,Surveillance
 mkd,2022,Surveillance
 mkd,2023,Surveillance
+mkd,2024,Surveillance
 mnp,2015,Surveillance
 mnp,2016,Surveillance
 mnp,2017,Surveillance
@@ -1286,6 +1228,7 @@ mnp,2020,Surveillance
 mnp,2021,Surveillance
 mnp,2022,Surveillance
 mnp,2023,Surveillance
+mnp,2024,Surveillance
 nor,2015,Surveillance
 nor,2016,Surveillance
 nor,2017,Surveillance
@@ -1295,6 +1238,7 @@ nor,2020,Surveillance
 nor,2021,Surveillance
 nor,2022,Surveillance
 nor,2023,Surveillance
+nor,2024,Surveillance
 pse,2015,Surveillance
 pse,2016,Surveillance
 pse,2017,Surveillance
@@ -1304,6 +1248,7 @@ pse,2020,Surveillance
 pse,2021,Surveillance
 pse,2022,Surveillance
 pse,2023,Surveillance
+pse,2024,Surveillance
 omn,2015,Surveillance
 omn,2016,Surveillance
 omn,2017,Surveillance
@@ -1313,6 +1258,7 @@ omn,2020,Surveillance
 omn,2021,Surveillance
 omn,2022,Surveillance
 omn,2023,Surveillance
+omn,2024,Surveillance
 pak,2015,Survey & Surveillance
 pak,2016,Survey & Surveillance
 pak,2017,Survey & Surveillance
@@ -1322,15 +1268,7 @@ pak,2020,Survey & Surveillance
 pak,2021,Survey & Surveillance
 pak,2022,Survey & Surveillance
 pak,2023,Survey & Surveillance
-plw,2015,Surveillance
-plw,2016,Surveillance
-plw,2017,Surveillance
-plw,2018,Surveillance
-plw,2019,Surveillance
-plw,2020,Surveillance
-plw,2021,Surveillance
-plw,2022,Surveillance
-plw,2023,Surveillance
+pak,2024,Survey & Surveillance
 pan,2015,Surveillance
 pan,2016,Surveillance
 pan,2017,Surveillance
@@ -1340,6 +1278,7 @@ pan,2020,Surveillance
 pan,2021,Surveillance
 pan,2022,Surveillance
 pan,2023,Surveillance
+pan,2024,Surveillance
 png,2015,Survey & Surveillance
 png,2016,Survey & Surveillance
 png,2017,Survey & Surveillance
@@ -1349,6 +1288,7 @@ png,2020,Survey & Surveillance
 png,2021,Survey & Surveillance
 png,2022,Survey & Surveillance
 png,2023,Survey & Surveillance
+png,2024,Survey & Surveillance
 pry,2015,Survey & Surveillance
 pry,2016,Survey & Surveillance
 pry,2017,Survey & Surveillance
@@ -1358,6 +1298,7 @@ pry,2020,Survey & Surveillance
 pry,2021,Survey & Surveillance
 pry,2022,Survey & Surveillance
 pry,2023,Survey & Surveillance
+pry,2024,Survey & Surveillance
 per,2015,Survey & Surveillance
 per,2016,Survey & Surveillance
 per,2017,Survey & Surveillance
@@ -1367,6 +1308,7 @@ per,2020,Survey & Surveillance
 per,2021,Survey & Surveillance
 per,2022,Survey & Surveillance
 per,2023,Survey & Surveillance
+per,2024,Survey & Surveillance
 phl,2015,Survey & Surveillance
 phl,2016,Survey & Surveillance
 phl,2017,Survey & Surveillance
@@ -1376,6 +1318,7 @@ phl,2020,Survey & Surveillance
 phl,2021,Survey & Surveillance
 phl,2022,Survey & Surveillance
 phl,2023,Survey & Surveillance
+phl,2024,Survey & Surveillance
 pol,2015,Surveillance
 pol,2016,Surveillance
 pol,2017,Surveillance
@@ -1385,6 +1328,7 @@ pol,2020,Surveillance
 pol,2021,Surveillance
 pol,2022,Surveillance
 pol,2023,Surveillance
+pol,2024,Surveillance
 prt,2015,Surveillance
 prt,2016,Surveillance
 prt,2017,Surveillance
@@ -1394,6 +1338,7 @@ prt,2020,Surveillance
 prt,2021,Surveillance
 prt,2022,Surveillance
 prt,2023,Surveillance
+prt,2024,Surveillance
 pri,2015,Surveillance
 pri,2016,Surveillance
 pri,2017,Surveillance
@@ -1403,6 +1348,7 @@ pri,2020,Surveillance
 pri,2021,Surveillance
 pri,2022,Surveillance
 pri,2023,Surveillance
+pri,2024,Surveillance
 qat,2015,Surveillance
 qat,2016,Surveillance
 qat,2017,Surveillance
@@ -1412,6 +1358,7 @@ qat,2020,Surveillance
 qat,2021,Surveillance
 qat,2022,Surveillance
 qat,2023,Surveillance
+qat,2024,Surveillance
 kor,2015,Survey & Surveillance
 kor,2016,Survey & Surveillance
 kor,2017,Survey & Surveillance
@@ -1421,6 +1368,7 @@ kor,2020,Survey & Surveillance
 kor,2021,Survey & Surveillance
 kor,2022,Survey & Surveillance
 kor,2023,Survey & Surveillance
+kor,2024,Survey & Surveillance
 mda,2015,Surveillance
 mda,2016,Surveillance
 mda,2017,Surveillance
@@ -1430,6 +1378,7 @@ mda,2020,Surveillance
 mda,2021,Surveillance
 mda,2022,Surveillance
 mda,2023,Surveillance
+mda,2024,Surveillance
 rou,2015,Survey & Surveillance
 rou,2016,Survey & Surveillance
 rou,2017,Survey & Surveillance
@@ -1439,6 +1388,7 @@ rou,2020,Survey & Surveillance
 rou,2021,Survey & Surveillance
 rou,2022,Survey & Surveillance
 rou,2023,Survey & Surveillance
+rou,2024,Survey & Surveillance
 rus,2015,Surveillance
 rus,2016,Surveillance
 rus,2017,Surveillance
@@ -1448,6 +1398,7 @@ rus,2020,Surveillance
 rus,2021,Surveillance
 rus,2022,Surveillance
 rus,2023,Surveillance
+rus,2024,Surveillance
 rwa,2015,Survey & Surveillance
 rwa,2016,Survey & Surveillance
 rwa,2017,Survey & Surveillance
@@ -1457,60 +1408,17 @@ rwa,2020,Survey & Surveillance
 rwa,2021,Survey & Surveillance
 rwa,2022,Survey & Surveillance
 rwa,2023,Survey & Surveillance
-kna,2015,Surveillance
-kna,2016,Surveillance
-kna,2017,Surveillance
-kna,2018,Surveillance
-kna,2019,Surveillance
-kna,2020,Surveillance
-kna,2021,Surveillance
-kna,2022,Surveillance
-kna,2023,Surveillance
-lca,2015,Surveillance
-lca,2016,Surveillance
-lca,2017,Surveillance
-lca,2018,Surveillance
-lca,2019,Surveillance
-lca,2020,Surveillance
-lca,2021,Surveillance
-lca,2022,Surveillance
-lca,2023,Surveillance
-vct,2015,Surveillance
-vct,2016,Surveillance
-vct,2017,Surveillance
-vct,2018,Surveillance
-vct,2019,Surveillance
-vct,2020,Surveillance
-vct,2021,Surveillance
-vct,2022,Surveillance
-vct,2023,Surveillance
-wsm,2015,Surveillance
-wsm,2016,Surveillance
-wsm,2017,Surveillance
-wsm,2018,Surveillance
-wsm,2019,Surveillance
-wsm,2020,Surveillance
-wsm,2021,Surveillance
-wsm,2022,Surveillance
-wsm,2023,Surveillance
-smr,2015,Model
-smr,2016,Model
-smr,2017,Model
-smr,2018,Model
-smr,2019,Model
-smr,2020,Model
-smr,2021,Model
-smr,2022,Model
-smr,2023,Model
-stp,2015,Model
-stp,2016,Model
-stp,2017,Model
-stp,2018,Model
-stp,2019,Model
-stp,2020,Model
-stp,2021,Model
-stp,2022,Model
-stp,2023,Model
+rwa,2024,Survey & Surveillance
+stp,2015,Surveillance
+stp,2016,Surveillance
+stp,2017,Surveillance
+stp,2018,Surveillance
+stp,2019,Surveillance
+stp,2020,Surveillance
+stp,2021,Surveillance
+stp,2022,Surveillance
+stp,2023,Surveillance
+stp,2024,Surveillance
 sau,2015,Survey & Surveillance
 sau,2016,Survey & Surveillance
 sau,2017,Survey & Surveillance
@@ -1520,6 +1428,7 @@ sau,2020,Survey & Surveillance
 sau,2021,Survey & Surveillance
 sau,2022,Survey & Surveillance
 sau,2023,Survey & Surveillance
+sau,2024,Survey & Surveillance
 sen,2015,Survey
 sen,2016,Survey
 sen,2017,Survey
@@ -1529,6 +1438,7 @@ sen,2020,Survey
 sen,2021,Survey
 sen,2022,Survey
 sen,2023,Survey
+sen,2024,Survey
 srb,2015,Surveillance
 srb,2016,Surveillance
 srb,2017,Surveillance
@@ -1538,15 +1448,7 @@ srb,2020,Surveillance
 srb,2021,Surveillance
 srb,2022,Surveillance
 srb,2023,Surveillance
-syc,2015,Surveillance
-syc,2016,Surveillance
-syc,2017,Surveillance
-syc,2018,Surveillance
-syc,2019,Surveillance
-syc,2020,Surveillance
-syc,2021,Surveillance
-syc,2022,Surveillance
-syc,2023,Surveillance
+srb,2024,Surveillance
 sle,2015,Model
 sle,2016,Model
 sle,2017,Model
@@ -1556,6 +1458,7 @@ sle,2020,Model
 sle,2021,Model
 sle,2022,Model
 sle,2023,Model
+sle,2024,Model
 sgp,2015,Surveillance
 sgp,2016,Surveillance
 sgp,2017,Surveillance
@@ -1565,15 +1468,7 @@ sgp,2020,Surveillance
 sgp,2021,Surveillance
 sgp,2022,Surveillance
 sgp,2023,Surveillance
-sxm,2015,Model
-sxm,2016,Model
-sxm,2017,Model
-sxm,2018,Model
-sxm,2019,Model
-sxm,2020,Model
-sxm,2021,Model
-sxm,2022,Model
-sxm,2023,Model
+sgp,2024,Surveillance
 svk,2015,Surveillance
 svk,2016,Surveillance
 svk,2017,Surveillance
@@ -1583,6 +1478,7 @@ svk,2020,Surveillance
 svk,2021,Surveillance
 svk,2022,Surveillance
 svk,2023,Surveillance
+svk,2024,Surveillance
 svn,2015,Surveillance
 svn,2016,Surveillance
 svn,2017,Surveillance
@@ -1592,6 +1488,7 @@ svn,2020,Surveillance
 svn,2021,Surveillance
 svn,2022,Surveillance
 svn,2023,Surveillance
+svn,2024,Surveillance
 slb,2015,Model
 slb,2016,Model
 slb,2017,Model
@@ -1601,6 +1498,7 @@ slb,2020,Model
 slb,2021,Model
 slb,2022,Model
 slb,2023,Model
+slb,2024,Model
 som,2015,Survey & Surveillance
 som,2016,Survey & Surveillance
 som,2017,Survey & Surveillance
@@ -1610,6 +1508,7 @@ som,2020,Survey & Surveillance
 som,2021,Survey & Surveillance
 som,2022,Survey & Surveillance
 som,2023,Survey & Surveillance
+som,2024,Survey & Surveillance
 zaf,2015,Survey & Surveillance
 zaf,2016,Survey & Surveillance
 zaf,2017,Survey & Surveillance
@@ -1619,6 +1518,7 @@ zaf,2020,Survey & Surveillance
 zaf,2021,Survey & Surveillance
 zaf,2022,Survey & Surveillance
 zaf,2023,Survey & Surveillance
+zaf,2024,Survey & Surveillance
 ssd,2015,Model
 ssd,2016,Model
 ssd,2017,Model
@@ -1628,6 +1528,7 @@ ssd,2020,Model
 ssd,2021,Model
 ssd,2022,Model
 ssd,2023,Model
+ssd,2024,Model
 esp,2015,Surveillance
 esp,2016,Surveillance
 esp,2017,Surveillance
@@ -1637,6 +1538,7 @@ esp,2020,Surveillance
 esp,2021,Surveillance
 esp,2022,Surveillance
 esp,2023,Surveillance
+esp,2024,Surveillance
 lka,2015,Survey
 lka,2016,Survey
 lka,2017,Survey
@@ -1646,6 +1548,7 @@ lka,2020,Survey
 lka,2021,Survey
 lka,2022,Survey
 lka,2023,Survey
+lka,2024,Survey
 sdn,2015,Survey
 sdn,2016,Survey
 sdn,2017,Survey
@@ -1655,6 +1558,7 @@ sdn,2020,Survey
 sdn,2021,Survey
 sdn,2022,Survey
 sdn,2023,Survey
+sdn,2024,Survey
 sur,2015,Surveillance
 sur,2016,Surveillance
 sur,2017,Surveillance
@@ -1664,6 +1568,7 @@ sur,2020,Surveillance
 sur,2021,Surveillance
 sur,2022,Surveillance
 sur,2023,Surveillance
+sur,2024,Surveillance
 swe,2015,Surveillance
 swe,2016,Surveillance
 swe,2017,Surveillance
@@ -1673,6 +1578,7 @@ swe,2020,Surveillance
 swe,2021,Surveillance
 swe,2022,Surveillance
 swe,2023,Surveillance
+swe,2024,Surveillance
 che,2015,Surveillance
 che,2016,Surveillance
 che,2017,Surveillance
@@ -1682,6 +1588,7 @@ che,2020,Surveillance
 che,2021,Surveillance
 che,2022,Surveillance
 che,2023,Surveillance
+che,2024,Surveillance
 syr,2015,Survey & Surveillance
 syr,2016,Survey & Surveillance
 syr,2017,Survey & Surveillance
@@ -1691,6 +1598,7 @@ syr,2020,Survey & Surveillance
 syr,2021,Survey & Surveillance
 syr,2022,Survey & Surveillance
 syr,2023,Survey & Surveillance
+syr,2024,Survey & Surveillance
 tjk,2015,Survey & Surveillance
 tjk,2016,Survey & Surveillance
 tjk,2017,Survey & Surveillance
@@ -1700,6 +1608,7 @@ tjk,2020,Survey & Surveillance
 tjk,2021,Survey & Surveillance
 tjk,2022,Survey & Surveillance
 tjk,2023,Survey & Surveillance
+tjk,2024,Survey & Surveillance
 tha,2015,Survey & Surveillance
 tha,2016,Survey & Surveillance
 tha,2017,Survey & Surveillance
@@ -1709,6 +1618,7 @@ tha,2020,Survey & Surveillance
 tha,2021,Survey & Surveillance
 tha,2022,Survey & Surveillance
 tha,2023,Survey & Surveillance
+tha,2024,Survey & Surveillance
 tls,2015,Survey
 tls,2016,Survey
 tls,2017,Survey
@@ -1718,6 +1628,7 @@ tls,2020,Survey
 tls,2021,Survey
 tls,2022,Survey
 tls,2023,Survey
+tls,2024,Survey
 tgo,2015,Survey & Surveillance
 tgo,2016,Survey & Surveillance
 tgo,2017,Survey & Surveillance
@@ -1727,24 +1638,7 @@ tgo,2020,Survey & Surveillance
 tgo,2021,Survey & Surveillance
 tgo,2022,Survey & Surveillance
 tgo,2023,Survey & Surveillance
-tkl,2015,Regional average
-tkl,2016,Regional average
-tkl,2017,Regional average
-tkl,2018,Regional average
-tkl,2019,Regional average
-tkl,2020,Regional average
-tkl,2021,Regional average
-tkl,2022,Regional average
-tkl,2023,Regional average
-ton,2015,Surveillance
-ton,2016,Surveillance
-ton,2017,Surveillance
-ton,2018,Surveillance
-ton,2019,Surveillance
-ton,2020,Surveillance
-ton,2021,Surveillance
-ton,2022,Surveillance
-ton,2023,Surveillance
+tgo,2024,Survey & Surveillance
 tto,2015,Surveillance
 tto,2016,Surveillance
 tto,2017,Surveillance
@@ -1754,6 +1648,7 @@ tto,2020,Surveillance
 tto,2021,Surveillance
 tto,2022,Surveillance
 tto,2023,Surveillance
+tto,2024,Surveillance
 tun,2015,Survey & Surveillance
 tun,2016,Survey & Surveillance
 tun,2017,Survey & Surveillance
@@ -1763,6 +1658,7 @@ tun,2020,Survey & Surveillance
 tun,2021,Survey & Surveillance
 tun,2022,Survey & Surveillance
 tun,2023,Survey & Surveillance
+tun,2024,Survey & Surveillance
 tur,2015,Surveillance
 tur,2016,Surveillance
 tur,2017,Surveillance
@@ -1772,6 +1668,7 @@ tur,2020,Surveillance
 tur,2021,Surveillance
 tur,2022,Surveillance
 tur,2023,Surveillance
+tur,2024,Surveillance
 tkm,2015,Survey & Surveillance
 tkm,2016,Survey & Surveillance
 tkm,2017,Survey & Surveillance
@@ -1781,24 +1678,7 @@ tkm,2020,Survey & Surveillance
 tkm,2021,Survey & Surveillance
 tkm,2022,Survey & Surveillance
 tkm,2023,Survey & Surveillance
-tca,2015,Model
-tca,2016,Model
-tca,2017,Model
-tca,2018,Model
-tca,2019,Model
-tca,2020,Model
-tca,2021,Model
-tca,2022,Model
-tca,2023,Model
-tuv,2015,Surveillance
-tuv,2016,Surveillance
-tuv,2017,Surveillance
-tuv,2018,Surveillance
-tuv,2019,Surveillance
-tuv,2020,Surveillance
-tuv,2021,Surveillance
-tuv,2022,Surveillance
-tuv,2023,Surveillance
+tkm,2024,Survey & Surveillance
 uga,2015,Survey & Surveillance
 uga,2016,Survey & Surveillance
 uga,2017,Survey & Surveillance
@@ -1808,6 +1688,7 @@ uga,2020,Survey & Surveillance
 uga,2021,Survey & Surveillance
 uga,2022,Survey & Surveillance
 uga,2023,Survey & Surveillance
+uga,2024,Survey & Surveillance
 ukr,2015,Survey & Surveillance
 ukr,2016,Survey & Surveillance
 ukr,2017,Survey & Surveillance
@@ -1817,6 +1698,7 @@ ukr,2020,Survey & Surveillance
 ukr,2021,Survey & Surveillance
 ukr,2022,Survey & Surveillance
 ukr,2023,Survey & Surveillance
+ukr,2024,Survey & Surveillance
 are,2015,Surveillance
 are,2016,Surveillance
 are,2017,Surveillance
@@ -1826,6 +1708,7 @@ are,2020,Surveillance
 are,2021,Surveillance
 are,2022,Surveillance
 are,2023,Surveillance
+are,2024,Surveillance
 gbr,2015,Surveillance
 gbr,2016,Surveillance
 gbr,2017,Surveillance
@@ -1835,6 +1718,7 @@ gbr,2020,Surveillance
 gbr,2021,Surveillance
 gbr,2022,Surveillance
 gbr,2023,Surveillance
+gbr,2024,Surveillance
 tza,2015,Survey & Surveillance
 tza,2016,Survey & Surveillance
 tza,2017,Survey & Surveillance
@@ -1844,6 +1728,7 @@ tza,2020,Survey & Surveillance
 tza,2021,Survey & Surveillance
 tza,2022,Survey & Surveillance
 tza,2023,Survey & Surveillance
+tza,2024,Survey & Surveillance
 usa,2015,Surveillance
 usa,2016,Surveillance
 usa,2017,Surveillance
@@ -1853,6 +1738,7 @@ usa,2020,Surveillance
 usa,2021,Surveillance
 usa,2022,Surveillance
 usa,2023,Surveillance
+usa,2024,Surveillance
 ury,2015,Survey & Surveillance
 ury,2016,Survey & Surveillance
 ury,2017,Survey & Surveillance
@@ -1862,6 +1748,7 @@ ury,2020,Survey & Surveillance
 ury,2021,Survey & Surveillance
 ury,2022,Survey & Surveillance
 ury,2023,Survey & Surveillance
+ury,2024,Survey & Surveillance
 uzb,2015,Survey & Surveillance
 uzb,2016,Survey & Surveillance
 uzb,2017,Survey & Surveillance
@@ -1871,6 +1758,7 @@ uzb,2020,Survey & Surveillance
 uzb,2021,Survey & Surveillance
 uzb,2022,Survey & Surveillance
 uzb,2023,Survey & Surveillance
+uzb,2024,Survey & Surveillance
 vut,2015,Surveillance
 vut,2016,Surveillance
 vut,2017,Surveillance
@@ -1880,6 +1768,7 @@ vut,2020,Surveillance
 vut,2021,Surveillance
 vut,2022,Surveillance
 vut,2023,Surveillance
+vut,2024,Surveillance
 ven,2015,Model
 ven,2016,Model
 ven,2017,Model
@@ -1889,6 +1778,7 @@ ven,2020,Model
 ven,2021,Model
 ven,2022,Model
 ven,2023,Model
+ven,2024,Model
 vnm,2015,Survey & Surveillance
 vnm,2016,Survey & Surveillance
 vnm,2017,Survey & Surveillance
@@ -1898,15 +1788,7 @@ vnm,2020,Survey & Surveillance
 vnm,2021,Survey & Surveillance
 vnm,2022,Survey & Surveillance
 vnm,2023,Survey & Surveillance
-wlf,2015,Surveillance
-wlf,2016,Surveillance
-wlf,2017,Surveillance
-wlf,2018,Surveillance
-wlf,2019,Surveillance
-wlf,2020,Surveillance
-wlf,2021,Surveillance
-wlf,2022,Surveillance
-wlf,2023,Surveillance
+vnm,2024,Survey & Surveillance
 yem,2015,Survey
 yem,2016,Survey
 yem,2017,Survey
@@ -1916,6 +1798,7 @@ yem,2020,Survey
 yem,2021,Survey
 yem,2022,Survey
 yem,2023,Survey
+yem,2024,Survey
 zmb,2015,Survey & Surveillance
 zmb,2016,Survey & Surveillance
 zmb,2017,Survey & Surveillance
@@ -1925,6 +1808,7 @@ zmb,2020,Survey & Surveillance
 zmb,2021,Survey & Surveillance
 zmb,2022,Survey & Surveillance
 zmb,2023,Survey & Surveillance
+zmb,2024,Survey & Surveillance
 zwe,2015,Survey & Surveillance
 zwe,2016,Survey & Surveillance
 zwe,2017,Survey & Surveillance
@@ -1934,3 +1818,4 @@ zwe,2020,Survey & Surveillance
 zwe,2021,Survey & Surveillance
 zwe,2022,Survey & Surveillance
 zwe,2023,Survey & Surveillance
+zwe,2024,Survey & Surveillance
